@@ -1,0 +1,32 @@
+{
+    "name": "omax",
+    "version": "1.0.0",
+    "description": "OmaX allows you to trade your crypto and giftcards - all in one place!",
+    "main": "index.html",
+    "scripts": {
+        "start": "npm run lite",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lite": "lite-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/umairabbas786/omax.git"
+    },
+    "keywords": [
+        "omax"
+    ],
+    "author": "Umair Abbas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/umairabbas786/omax/issues"
+    },
+    "homepage": "https://github.com/umairabbas786/omax#readme",
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.6",
+        "bootstrap": "^5.2.0",
+        "jquery": "^3.6.0"
+    }
+}
