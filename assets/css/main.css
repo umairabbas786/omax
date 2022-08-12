@@ -439,7 +439,7 @@ a:hover {
     .dashboard-nav header .menu-toggle {
         display: inline-block;
         position: absolute;
-        margin-left: -380px;
+        margin-left: -350px;
     }
 }
 
