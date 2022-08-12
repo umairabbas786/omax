@@ -25,6 +25,8 @@
         "lite-server": "^2.6.1"
     },
     "dependencies": {
+        "@fortawesome/free-regular-svg-icons": "^6.1.2",
+        "@fortawesome/free-solid-svg-icons": "^6.1.2",
         "@popperjs/core": "^2.11.6",
         "bootstrap": "^5.2.0",
         "jquery": "^3.6.0"
