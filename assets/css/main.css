@@ -124,8 +124,8 @@ a:hover {
 }
 
 .dashboard-nav {
-    min-width: 20%;
-    max-width: 20%;
+    min-width: 30%;
+    max-width: 30%;
     position: fixed;
     left: 0;
     top: 0;
@@ -228,6 +228,11 @@ a:hover {
     margin-bottom: 5px;
 }
 
+.profile-pic{
+    min-width: 30% !important;
+    max-width: 30% !important;
+}
+
 .view-profile {
     font-size: 16px;
     color: #000000E6;
@@ -240,7 +245,7 @@ a:hover {
 .dashboard-nav-item i {
     width: 36px;
     font-size: 22px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     padding-right: 50px;
     /* color: #629509; */
 }
@@ -406,7 +411,7 @@ a:hover {
 
 @media (min-width: 992px) {
     .dashboard-app {
-        margin-left: 238px;
+        margin-left: 30%;
     }
     .dashboard-compact .dashboard-app {
         margin-left: 0;
@@ -439,13 +444,13 @@ a:hover {
     .dashboard-nav header .menu-toggle {
         display: inline-block;
         position: absolute;
-        margin-left: -320px;
+        margin-left: -300px;
     }
 }
 
 @media (min-width: 992px) {
     .dashboard-toolbar {
-        left: 20%;
+        left: 30%;
     }
     .dashboard-compact .dashboard-toolbar {
         left: 0;
