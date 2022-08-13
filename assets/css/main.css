@@ -446,6 +446,9 @@ a:hover {
         position: absolute;
         margin-left: -300px;
     }
+    .noti-icon{
+        padding: 5px 10px 5px 10px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -455,4 +458,28 @@ a:hover {
     .dashboard-compact .dashboard-toolbar {
         left: 0;
     }
+}
+
+/* notification page */
+
+.notification-head h2{
+    color: #DA6200;
+    font-size: 36px;
+}
+
+hr.line-breaker{
+    border: 2px solid #629509;
+    opacity: 1;
+}
+
+.noti-icon{
+    border: 1px solid #DA6200;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 20px;
+    padding:20px 25px 20px 25px;
+    background-color: #DA6200;
+}
+.noti-icon i{
+    color: white;
 }
