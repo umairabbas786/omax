@@ -487,7 +487,7 @@ hr.line-breaker{
     border-radius: 10px;
 }
 .nig{
-    color: #116611;
+    color: #629509;
 }
 .Namount{
     font-size: 40px;
@@ -501,7 +501,7 @@ hr.line-breaker{
     margin: 15px 0px 15px;
 }
 .heading{
-    color: green;
+    color: #629509;
 }
 .second{
     padding: 10px 0px 10px;
@@ -512,31 +512,28 @@ hr.line-breaker{
 }
 .card{
     border-radius: 20px;
-    border: 2px solid green;
+    border: 2px solid #629509;
 }
 .card-title{
-    color: green;
+    color: #629509;
 }
 hr.new1 {
-    border-top: 2px solid green;
+    border-top: 2px solid #629509;
   }
   .vlm{
     margin-top: 70px;
 
   }
 .vl {
-    border-left: 3px dashed brown;
+    border-left: 3px dashed #DA6200;
     height: 500px;
     position: absolute;
     left: 50%;
     margin-left: -3px;
     top: 0;
   }
-  .srvs{
-    color: green;
-  }
   hr.new2{
-    border-top: 3px dashed brown;
+    border-top: 3px dashed #DA6200;
     margin-bottom: 30px;
   }
   .get{
@@ -587,4 +584,13 @@ hr.new1 {
   .assets-img{
     width:470px;
     margin-left: -100px;
+  }
+  .btn-primary{
+    background-image: linear-gradient(rgba(218, 98, 0, 1),rgba(98, 149, 9, 1));
+    text-decoration: none;
+    border-color: #fff;
+  }
+  .btn-primary:hover{
+    border-color: #fff;
+    text-decoration: none;
   }
