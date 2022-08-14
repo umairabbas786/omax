@@ -543,3 +543,48 @@ hr.new1 {
     margin: 100px 0px 100px;
     padding: 15px 60px 15px;
   }
+  .checked {
+    color: white;
+  }
+  .card-main{
+    background-color: #ff9615db;
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+  }
+  .product-meta{
+    margin-bottom: -15px;
+  }
+  .glad{
+    font-size: 15px;
+    color: white;
+  }
+  .testimonial{
+    color: #ff9615db;
+  }
+  .product-title{
+    color: white;
+  }
+  .input-text {
+    margin: 20px 0px 20px;
+    border: 3px solid #ff9615db;
+    border-radius: 6px;
+    padding: 5px 20px;
+    width: 90%;
+    height: 50px;
+  }
+  .update-button{
+    padding: 25px 25px;
+    border-radius: 10px;
+    width: 60%;
+  }
+  .heading-news{
+    font-size: 40px;
+  }
+  .email-row{
+    margin-left: 20px;
+    margin-top: 50px;;
+  }
+  .assets-img{
+    width:470px;
+    margin-left: -100px;
+  }
