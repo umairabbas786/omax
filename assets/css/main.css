@@ -620,3 +620,14 @@ hr.new1 {
     border-color: #fff;
     text-decoration: none;
   }
+  .academy-logo{
+    width:230px;
+  }
+  .academy-heading{
+    color: #629509;
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  .academy{
+    margin-bottom: 40px;
+  }
