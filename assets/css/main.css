@@ -483,3 +483,63 @@ hr.line-breaker{
 .noti-icon i{
     color: white;
 }
+.log{
+    border-radius: 10px;
+}
+.nig{
+    color: #116611;
+}
+.Namount{
+    font-size: 40px;
+}
+.mainbg{
+    width:500px;
+}
+.icons{
+    width: 100px;
+    height: 90px;
+    margin: 15px 0px 15px;
+}
+.heading{
+    color: green;
+}
+.second{
+    padding: 10px 0px 10px;
+}
+.icon-3{
+    width: 70px;
+    margin-bottom: 15px;
+}
+.card{
+    border-radius: 20px;
+    border: 2px solid green;
+}
+.card-title{
+    color: green;
+}
+hr.new1 {
+    border-top: 2px solid green;
+  }
+  .vlm{
+    margin-top: 70px;
+
+  }
+.vl {
+    border-left: 3px dashed brown;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+  .srvs{
+    color: green;
+  }
+  hr.new2{
+    border-top: 3px dashed brown;
+    margin-bottom: 30px;
+  }
+  .get{
+    margin: 100px 0px 100px;
+    padding: 15px 60px 15px;
+  }
