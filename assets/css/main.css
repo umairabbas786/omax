@@ -667,18 +667,6 @@ input[type=number] {
     border-radius: 15px;
     background-color: #EFF4E6;
   }
-  .subgoal{
-    border: 2px solid #EFF4E6;
-    border-radius: 15px;
-    background-color: #EFF4E6;
-    height: 200px;
-  }
-
-  html,
-body {
-  position: relative;
-  height: 100%;
-}
 
 .swiper {
   width: 100%;
