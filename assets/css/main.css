@@ -607,21 +607,9 @@ input[type=number] {
     width: 90%;
     height: 50px;
   }
-  .update-button{
-    padding: 25px 25px;
-    border-radius: 10px;
-    width: 60%;
-  }
   .heading-news{
     font-size: 40px;
-  }
-  .email-row{
-    margin-left: 20px;
-    margin-top: 50px;;
-  }
-  .assets-img{
-    width:470px;
-    margin-left: -100px;
+    color: #629509;
   }
   .btn-primary{
     background-image: linear-gradient(rgba(218, 98, 0, 1),rgba(98, 149, 9, 1));
