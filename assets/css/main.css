@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
 html {
     font-family: ginger;
     line-height: 1.15;
@@ -449,6 +454,12 @@ a:hover {
     .noti-icon{
         padding: 5px 10px 5px 10px;
     }
+    .home-main{
+        background: url("../images/main-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 
 @media (min-width: 992px) {
@@ -509,6 +520,42 @@ hr.line-breaker{
 .noti-icon i{
     color: white;
 }
+/*main caresoul*/
+.main-heading{
+    color: #629509;
+    font-size: 44px;
+    line-height: 1.4;
+    font-weight: 550;
+}
+.crypto-style{
+    border-bottom: 5px solid #DA6200;
+    border-radius: 15px 50px 30px 5px;
+}
+.equal-to{
+    color: #DA6200;
+}
+.floatingInput{
+    color: #629509;
+    text-align: left;
+}
+.form-control{
+    border: 2px solid #629509;
+}
+.input-group-text{
+    color: #DA6200;
+    border: 2px solid #629509;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 .log{
     border-radius: 10px;
 }
@@ -518,23 +565,11 @@ hr.line-breaker{
 .Namount{
     font-size: 40px;
 }
-.mainbg{
-    width:500px;
-}
-.icons{
-    width: 100px;
-    height: 90px;
-    margin: 15px 0px 15px;
-}
 .heading{
     color: #629509;
 }
-.second{
-    padding: 10px 0px 10px;
-}
 .icon-3{
     width: 70px;
-    margin-bottom: 15px;
 }
 .card{
     border-radius: 20px;

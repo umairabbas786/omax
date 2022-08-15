@@ -50,27 +50,44 @@
   <!-- NAVBAR END -->
 
   <!-- SECTION MAIN -->
-  <section>
+  <section class="home-main">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 py-5 ">
-          <h1 class="header">Buy or Sell your Crypto. Redeem your Gift Cards.</h1>
-          <h4>OmaX allows you to trade your crypto and
+        <div class="col-md-6 py-5 text-center">
+          <h1 class="main-heading">Buy or Sell your <span class="crypto-style">Crypto.</span> <br> Redeem your Gift Cards.</h1>
+          <h4 class="py-4">OmaX allows you to trade your crypto and
             giftcards - all in one place!
           </h4>
-            <div class="row">
-              <div class="col border border-secondary p-2">
-                <span class="nig">Nigerian Naira</span><br>
-                <span class="Namount">N25,000</span>
+            <div class="row py-4">
+              <div class="col-5">
+                <div class="input-group mb-3">
+                  <span class="input-group-text">N</span>
+                  <div class="form-floating">
+                    <input type="number" class="form-control form-control-lg" id="floatingInputGroup1" placeholder="" value="0.00">
+                    <label for="floatingInputGroup1" class="floatingInput">Nigerian Naira</label>
+                  </div>
+                </div>
               </div>
-              <div class="col border border-secondary p-2">
-                <span class="nig">BTC</span><br>
-                <span class="Namount">0.0013</span>
+              <div class="col-1">
+                <h1 class="equal-to">=</h1>
+              </div>
+              <div class="col-5">
+                <div class="form-floating mb-3">
+                  <input type="number" class="form-control form-control-lg" id="floatingInput" placeholder="" value="0.00">
+                  <label for="floatingInput" class="floatingInput">BTC</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary px-5 py-3 my-5 btn-lg">
+                    <h3>I want to trade now</h3>
+                  </button>
+                </div>
               </div>
             </div>
         </div>
-        <div class="col-md-6">
-          <img class="mainbg" src="assets/images/Asset 2@4x.png" alt="">
+        <div class="col-md-6 text-center d-none d-md-block">
+          <img  src="assets/images/Asset 2@4x.png" width="80%" alt="bitcon-main">
         </div>
       </div>
     </div>
@@ -127,11 +144,11 @@
   <!-- SECTION START -->
   <section style="background-color: #F2F2F2">
     <div class="container p-5">
-      <div class="row second">
+      <div class="row">
         <div class="col-md-4 col-12 p-5">
           <h1 class="text-center heading">Fast</h1>
-          <div class="d-flex justify-content-center py-3">
-            <img class=" icons" src="assets/icons/fast-time.png" width="100%" alt="fast time">
+          <div class="d-flex justify-content-center py-5">
+            <img src="assets/icons/fast-time.png" width="30%" alt="fast time">
           </div>
           <p class="text-center para">This just a smaple text - serving as a
             placeholder for the real text. Don't worry
@@ -140,8 +157,8 @@
         </div>
         <div class="col-12 col-md-4 p-5">
           <h1 class=" text-center heading">Legit</h1>
-          <div class="d-flex justify-content-center py-3">
-            <img class="icons" src="assets/icons/check-mark.png" width="100%" alt="check mark">
+          <div class="d-flex justify-content-center py-5">
+            <img src="assets/icons/check-mark.png" width="24%" alt="check mark">
           </div>
           <p class="text-center para">This just a smaple text - serving as a
             placeholder for the real text. Don't worry
@@ -150,8 +167,8 @@
         </div>
         <div class="col-12 col-md-4 p-5">
           <h1 class=" text-center heading"> Reliable</h1>
-          <div class="d-flex justify-content-center py-3">
-            <img class="icons" src="assets/icons/security-shield.png" width="100%" alt="security shield">
+          <div class="d-flex justify-content-center py-5">
+            <img src="assets/icons/security-shield.png" width="22%" alt="security shield">
           </div>
           <p class="text-center para">This just a smaple text - serving as a
             placeholder for the real text. Don't worry
@@ -263,7 +280,7 @@
       </div>
 
     </div>
-    <div class="container d-flex justify-content-center">
+    <div class="d-flex justify-content-center">
       <button type="button" class="btn btn-primary px-5 py-3 my-5 btn-lg">
         <h3>Get Started Today!</h3>
       </button>
@@ -409,9 +426,9 @@
     </div>
   </section>
   <!-- FOOTER -->
-  <section style="background-color: black;">
-    <h6 class="text-center p-5" style="color: white;">Copyright 2021 OmaXchange - Designed by creativemame</h6>
-  </section>
+  <footer class="bg-black">
+    <h6 class="text-center p-5 text-white mb-0">Copyright &copy; 2022 OmaXchange - Designed by Umair Abbas and Team</h6>
+  </footer>
 
 
   <!-- jquery -->
