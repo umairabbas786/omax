@@ -662,8 +662,11 @@ input[type=number] {
     border-radius: 15px;
     background-color: #EFF4E6;
   }
-  .location{
-  padding: 97px 40px;
+  .subgoal{
+    border: 2px solid #EFF4E6;
+    border-radius: 15px;
+    background-color: #EFF4E6;
+    height: 200px;
   }
 
   html,
