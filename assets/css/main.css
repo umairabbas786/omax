@@ -653,3 +653,6 @@ input[type=number] {
   .navbar-toggler{
     border: #629509;
   }
+  .mobil{
+    width:100%;
+  }
