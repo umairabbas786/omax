@@ -527,6 +527,7 @@ hr.line-breaker{
     line-height: 1.4;
     font-weight: 550;
 }
+
 .crypto-style{
     border-bottom: 5px solid #DA6200;
     border-radius: 15px 50px 30px 5px;
@@ -655,4 +656,12 @@ input[type=number] {
   }
   .mobil{
     width:100%;
+  }
+  .goal{
+    border: 2px solid #EFF4E6;
+    border-radius: 15px;
+    background-color: #EFF4E6;
+  }
+  .location{
+  padding: 97px 40px;
   }
