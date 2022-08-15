@@ -685,6 +685,16 @@ body {
     justify-content: center;
     transition: all 200ms linear;
     transform: scale(0.8);
+}
+.swiper-container {
+    position: relative;
+    width: 90vw;
+    height: 300px;
+  }
+  
+  .swiper-container > .swiper-slide__content {
+    position: absolute;
+    top: 0;
   }
 
 .swiper-slide img {
