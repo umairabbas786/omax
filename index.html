@@ -334,7 +334,7 @@
       <div class="row p-5 ">
         
   
-  <div class="swiper mySwiper">
+  <div class="swiper mySwiper px-md-5 px-0">
     <div class="swiper-wrapper">
       <div class="swiper-slide "> 
         <div class=" col-md-12 border card-main py-5">
@@ -492,7 +492,6 @@
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
   </div>
-  <div class="swiper-pagination"></div>
 
  
 
@@ -548,8 +547,9 @@
         spaceBetween: 30,
         centeredSlides: true,
         roundLengths: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
         loop: true,
-        loopFillGroupWithBlank: true,
         breakpoints: {
             1920: {
                 slidesPerView: 3,
