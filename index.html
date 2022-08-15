@@ -10,10 +10,9 @@
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/acc2c02c7c.js" crossorigin="anonymous"></script>
-  <!--Slick slider-->
-  <!-- <link rel="stylesheet" href="node_modules/slick-slider/slick/slick.css"> -->
-  <!-- <link rel="stylesheet" href="node_modules/slick-slider/slick/slick-theme.css"> -->
+  <!--swiper slider-->
   <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+
   <link rel="stylesheet" href="assets/css/main.css">
   <title>Omax</title>
 
@@ -36,8 +35,9 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
            
           </ul>
-          <form class="d-md-flex">            
-              <a class="nav-link m-4" href="#">About Us <span class="sr-only">(current)</span></a>
+          <form class="d-md-flex">       
+              <a class="nav-link m-4" href="index.html">Home</a>     
+              <a class="nav-link m-4" href="about.html">About Us <span class="sr-only">(current)</span></a>
               <a class="nav-link m-4" href="#">Learn</a>
               <a class="nav-link m-4" href="#">Blog</a>
             <button type="button" class=" btn-outline-prima m-2">Log in</button>
@@ -91,13 +91,11 @@
         </div>
       </div>
     </div>
-    <!-- slider area -->
-    <br><br><br>
     <!-- slider end -->
   </section>
   <!-- MAIN END -->
   <!-- Slider Start-->
-  <div class="">
+  <div class="container">
     <div class="slider">
       <div class="slide-track">
         <div class="slide">
@@ -328,7 +326,7 @@
 <!-- ACADEMY SECTION END -->
   <!-- CAROUSEL SECTION -->
 
-  <section style="background-color: #FFF0F6">
+  <section style="background-color: #da62001a;" class="py-5">
     <div class="container">
       <h5 class="text-center p-4 testimonial">T E S T I M O N I A L S</h5>
       <h1 class="text-center">What our clients<br>are saying about us</h1>
@@ -339,7 +337,7 @@
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide "> 
-        <div class=" col-md-12 border card-main ml-5 mr-2">
+        <div class=" col-md-12 border card-main py-5">
         <div class="product-card-info">
           <div class="product-meta small">
             <p class="glad">"I'm glad I traded with OmaX"</p>
@@ -364,7 +362,7 @@
 
         </div>
       </div></div>
-      <div class="swiper-slide"> <div class=" col-md-12 border card-main ml-5 mr-2">
+      <div class="swiper-slide"> <div class=" col-md-12 border card-main py-5">
         <div class="product-card-info">
           <div class="product-meta small">
             <p class="glad">"I'm glad I traded with OmaX"</p>
@@ -389,7 +387,7 @@
 
         </div>
       </div></div>
-      <div class="swiper-slide"> <div class=" col-md-12 border card-main ml-5 mr-2">
+      <div class="swiper-slide"> <div class=" col-md-12 border card-main py-5">
         <div class="product-card-info">
           <div class="product-meta small">
             <p class="glad">"I'm glad I traded with OmaX"</p>
@@ -414,7 +412,7 @@
 
         </div>
       </div></div>
-      <div class="swiper-slide"> <div class=" col-md-12 border card-main ml-5 mr-2">
+      <div class="swiper-slide"> <div class=" col-md-12 border card-main py-5">
         <div class="product-card-info">
           <div class="product-meta small">
             <p class="glad">"I'm glad I traded with OmaX"</p>
@@ -439,32 +437,33 @@
 
         </div>
       </div></div>
-      <div class="swiper-slide"> <div class=" col-md-12 border card-main ml-5 mr-2">
-        <div class="product-card-info">
-          <div class="product-meta small">
-            <p class="glad">"I'm glad I traded with OmaX"</p>
-          </div>
-          <div class="stars">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
+      <div class="swiper-slide"> 
+        <div class=" col-md-12 border card-main py-5">
+          <div class="product-card-info">
+            <div class="product-meta small">
+              <p class="glad">"I'm glad I traded with OmaX"</p>
+            </div>
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
 
-          <h6 class="product-title">
-            <p>This just a smaple text - serving
-              as a placeholder for the real
-              text. Don't worry the real text
-              will be up soon!
-              This just a smaple text - serving
-              as a placeholder.</p>
-          </h6>
-          <div class="product-title">- Adekunle, ABUJA</div>
-
+            <h6 class="product-title">
+              <p>This just a smaple text - serving
+                as a placeholder for the real
+                text. Don't worry the real text
+                will be up soon!
+                This just a smaple text - serving
+                as a placeholder.</p>
+            </h6>
+            <div class="product-title">- Adekunle, ABUJA</div>
+          </div>
         </div>
-      </div></div>
-      <div class="swiper-slide"> <div class=" col-md-12 border card-main ml-5 mr-2">
+      </div>
+      <div class="swiper-slide"> <div class=" col-md-12 border card-main py-5">
         <div class="product-card-info">
           <div class="product-meta small">
             <p class="glad">"I'm glad I traded with OmaX"</p>
@@ -545,20 +544,26 @@
 
   <script>
      var swiper = new Swiper(".mySwiper", {
-        
         slidesPerView: 3,
-       
         spaceBetween: 30,
-      
+        centeredSlides: true,
+        roundLengths: true,
         loop: true,
         loopFillGroupWithBlank: true,
-   
-        pagination: {
-       
-          el: ".swiper-pagination",
-          clickable: true,
+        breakpoints: {
+            1920: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+            1028: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            480: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            }
         },
-   
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",

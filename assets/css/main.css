@@ -704,6 +704,10 @@ body {
   object-fit: cover;
 }
 
+.swiper-slide.swiper-slide-active {
+    transform: scale(1);
+    font-size: large;
+  }
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -711,5 +715,4 @@ body {
 	height: 32px;
 	margin-top: -16px;
     color: green;
-    
 }
