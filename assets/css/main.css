@@ -645,6 +645,11 @@ input[type=number] {
     cursor: pointer;
     border-color: #629509;
     color: #DA6200;
+    text-decoration: none;
+  }
+  .btn-outline-prima:hover{
+    text-decoration: none;
+    color: #DA6200;
   }
 
   .menu-bars{
