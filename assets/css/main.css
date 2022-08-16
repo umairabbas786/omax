@@ -123,10 +123,6 @@ a:hover {
 }
 
 .dashboard {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     min-height: 100vh;
 }
 
@@ -156,8 +152,8 @@ a:hover {
 }
 
 .dashboard-nav {
-    min-width: 30%;
-    max-width: 30%;
+    min-width: 25%;
+    max-width: 25%;
     position: fixed;
     left: 0;
     top: 0;
@@ -261,8 +257,8 @@ a:hover {
 }
 
 .profile-pic{
-    min-width: 30% !important;
-    max-width: 30% !important;
+    min-width: 25% !important;
+    max-width: 25% !important;
 }
 
 .view-profile {
@@ -443,7 +439,7 @@ a:hover {
 
 @media (min-width: 992px) {
     .dashboard-app {
-        margin-left: 30%;
+        margin-left: 25%;
     }
     .dashboard-compact .dashboard-app {
         margin-left: 0;
@@ -491,7 +487,7 @@ a:hover {
 
 @media (min-width: 992px) {
     .dashboard-toolbar {
-        left: 30%;
+        left: 25%;
     }
     .dashboard-compact .dashboard-toolbar {
         left: 0;
@@ -726,9 +722,6 @@ input[type=number] {
         border-radius: 25px;
         background-image: linear-gradient(rgba(147, 224, 15),rgba(98, 149, 9, 1));
     }
-    .hr-line{
-        border-top: 4px solid rgba(98, 149, 9, 1);
-    }
 .news-box{
     border: 2px solid #629509;
     border-radius: 20px;
@@ -737,4 +730,29 @@ input[type=number] {
     background-color: #DA6200;
     border-radius: 20px;
     color: white;
+}
+
+.btn-outline-primary{
+    text-decoration: none;
+    color: black;
+    border: 2px solid !important;
+    border-color: #629509 !important;
+    border-radius: 35px;
+    white-space: nowrap;
+}
+.btn-outline-primary:hover{
+    background-color: #629509 !important;
+    text-decoration: none;
+}
+.user-active{
+    background-color: #629509;
+    color: white;
+}
+.market-price .swiper-button-prev,
+.market-price  .swiper-button-next {
+    width: 8%;
+    height: 12%;
+    color: #fff !important;
+    background-color: #DA6200;
+    border-radius: 50%;
 }
