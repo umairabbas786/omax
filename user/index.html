@@ -14,6 +14,8 @@
     <script src="https://kit.fontawesome.com/acc2c02c7c.js" crossorigin="anonymous"></script>
     <!-- main stylesheet -->
     <link rel="stylesheet" href="../assets/css/main.css">
+    <!--swiper slider-->
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
 
 </head>
 
@@ -36,25 +38,181 @@
                     <h3 class="profile-name">Ajibola <br><span class="view-profile">view profile</span></h3>&nbsp;&nbsp;
                 </a>
                 <div class="nav-item-divider"></div>
-                <a href="#" class="dashboard-nav-item active"><i class="fa-solid fa-house-chimney icon fa-2x"></i> Home </a>
+                <a href="#" class="dashboard-nav-item active"><i class="fa-solid fa-house-chimney icon fa-2x"></i> Home
+                </a>
                 <a href="#" class="dashboard-nav-item"><i class="fa-solid fa-wallet icon fa-2x"></i> Wallet</a>
-                <a href="#" class="dashboard-nav-item"><i class="fa-solid icon fa-arrows-rotate"></i> Peer to peer (P2P) </a>
-                <a href="#" class="dashboard-nav-item"><i class="fa-solid icon fa-clock-rotate-left"></i> Trade history </a>
-                <a href="notification.html" class="dashboard-nav-item mt-4"><i class="fa-solid icon fa-bell"></i> Notifications </a>
+                <a href="#" class="dashboard-nav-item"><i class="fa-solid icon fa-arrows-rotate"></i> Peer to peer (P2P)
+                </a>
+                <a href="#" class="dashboard-nav-item"><i class="fa-solid icon fa-clock-rotate-left"></i> Trade history
+                </a>
+                <a href="notification.html" class="dashboard-nav-item mt-4"><i class="fa-solid icon fa-bell"></i>
+                    Notifications </a>
                 <a href="#" class="dashboard-nav-item"><i class="fa-solid icon fa-gear"></i> Settings </a>
                 <a href="#" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
             </nav>
         </div>
         <div class='dashboard-app'>
-            <header class='dashboard-toolbar'><a href="#!" class="menu-toggle"><i class="fa-solid fa-bars-staggered fa-2x"></i></a></header>
+            <header class='dashboard-toolbar px-5 d-sm-flex justify-sm-content-center align-sm-content-center'>
+                <a href="#" class="menu-toggle text-start"><i class="fa-solid fa-bars-staggered fa-2x"></i></a>
+                <div class="d-md-none d-block text-end ms-auto">
+                    <span class="profile-name mx-2" style="font-size:larger">Ajibola</span>
+                    <a href=""><img src="../assets/images/profile.png" alt="profile picture" width="22%"></a>
+                </div>
+            </header>
             <div class='dashboard-content'>
                 <div class='container'>
-                    <div class='card'>
-                        <div class='card-header'>
-                            <h1>Home Page</h1>
+                    <div class="row my-3">
+                        <div class="col-md-8 order-last order-md-first d-none d-md-block">
+                            <div class="dashboard-nav-item d-flex">
+                                <img src="../assets/images/profile.png" alt="profile picture" style="width: 150px">
+                                <h3 class="profile-name mx-4">Hi Ajibola! <br><span class="view-profile">Welcome to your
+                                        dashboard</span></h3>&nbsp;&nbsp;
+                            </div>
                         </div>
-                        <div class='card-body'>
-                            <p>Content here</p>
+                        <div class="col-md-4 col-12 py-3 order-first order-md-last mb-md-0 mb-3">
+                            <div class="border balance-box">
+                                <h4 style="color: white;" class="text-center my-3">Available Balance</h4>
+                                <h1 style="color: white;" class="text-center">N 200,000.00</h1>
+                                <h4 style="color: #DA6200;" class="text-center">Naira</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="container">
+                        <div class="row my-5">
+                            <div class="col-md-3 mb-3 mb-md-0">
+                                <a href="#" class="btn-outline-dash p-3"> <img src="../assets/icons/trade.png" alt=""> Trade E-currency</a>
+                            </div>
+                            <div class="col-md-3 mb-3 mb-md-0">
+                                <a href="#" class="btn-outline-dash p-3"><img  src="../assets/icons/data-integration.png" alt="">Airtime and Data</a>
+                            </div>
+                            <div class="col-md-3 mb-3 mb-md-0">
+                                <a href="#" class="btn-outline-dash p-3"><img class="mx-4" src="../assets/icons/gift.png" alt="">Sell Giftcards</a>
+                            </div>
+                            <div class="col-md-3 mb-3 mb-md-0">
+                                <a href="#" class="btn-outline-dash p-3"><img src="../assets/icons/bill.png" alt="">Utility and bills</a>
+                            </div>
+                        </div>
+                    </div> -->
+                    <hr class="hr-line">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="news-box px-5 pt-5">
+                                <h3 class="card-title mb-5">News</h3>
+                                <div class="news1">
+                                    <h5>bitcoin crashes to $20,000</h5>
+                                    <div class="news-btn d-flex">
+                                        <p>The latest crash in the cryptocurrency market has recently caused a....</p>
+                                        <a href="" class="log btn btn-view btn-lg mb-3 mx-3">view</a>
+                                    </div>
+                                    <hr class="hr-line">
+                                </div>
+                                <div class="news1">
+                                    <h5>Elon Musk gets sued for</h5>
+                                    <div class="news-btn d-flex">
+                                        <p>The latest crash in the cryptocurrency market has recently caused a....</p>
+                                        <a href="" class="log btn btn-view btn-lg mb-3 mx-3">view</a>
+                                    </div>
+                                    <hr class="hr-line">
+                                </div>
+                                <div class="news1">
+                                    <h5>Elon Musk gets sued for</h5>
+                                    <div class="news-btn d-flex">
+                                        <p>The latest crash in the cryptocurrency market has recently caused a....</p>
+                                        <a href="" class="log btn btn-view btn-lg mb-3 mx-3">view</a>
+                                    </div>
+                                    <hr class="hr-line">
+                                </div>
+                                <div class="news1">
+                                    <h5>Elon Musk gets sued for</h5>
+                                    <div class="news-btn d-flex">
+                                        <p>The latest crash in the cryptocurrency market has recently caused a....</p>
+                                        <a href="" class="log btn btn-view btn-lg mb-3 mx-3">view</a>
+                                    </div>
+                                    <hr class="hr-line">
+                                </div>
+                                <div class="read-news mb-3 text-end">
+                                    <a class="my-2" style="color: red;" href="#">Read more news</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-box px-5 pt-5">
+                                <h3 class="card-title mb-4">Latest Market Prices</h3>
+                                <hr class="hr-line">
+                                <div class="swiper mySwiper px-md-5 px-0">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide ">
+                                            <div class=" col-md-12 py-5">
+                                                <div class="slide-img">
+                                                    <img style="width: 100%;"
+                                                        src="../assets/images/Scroll Group 3@2x.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class=" col-md-12 py-5">
+                                                <div class="slide-img">
+                                                    <img style="width: 100%;"
+                                                        src="../assets/images/Scroll Group 3@2x.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class=" col-md-12 py-5">
+                                                <div class="slide-img">
+                                                    <img style="width: 100%;"
+                                                        src="../assets/images/Scroll Group 3@2x.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class=" col-md-12 py-5">
+                                                <div class="slide-img">
+                                                    <img style="width: 100%;"
+                                                        src="../assets/images/Scroll Group 3@2x.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class=" col-md-12 py-5">
+                                                <div class="slide-img">
+                                                    <img style="width: 100%;"
+                                                        src="../assets/images/Scroll Group 3@2x.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class=" col-md-12 py-5">
+                                                <div class="slide-img">
+                                                    <img style="width: 100%;"
+                                                        src="../assets/images/Scroll Group 3@2x.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+
+
+
+
+                            </div>
+
+                            <div class="news-box px-5 pt-5 mt-4">
+                                <h3 class="card-title mb-5">Refer and Earn</h3>
+                                <div class="news1">
+                                    <div class="news-btn d-flex">
+                                        <p>You can earn by reffering your friends to sign up.</p>
+                                        <a href="" class="log btn btn-view btn-lg mb-3 mx-3">Earn now</a>
+                                    </div>
+                                    <hr class="hr-line">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -71,6 +229,24 @@
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- main js -->
     <script src="../assets/js/main.js"></script>
+    <!-- swiper js -->
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            centeredSlides: true,
+            roundLengths: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+        });
+    </script>
 </body>
 
 </html>

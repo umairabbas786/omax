@@ -33,6 +33,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
+    
 }
 
 h1,
@@ -129,8 +130,8 @@ a:hover {
 }
 
 .dashboard-nav {
-    min-width: 30%;
-    max-width: 30%;
+    min-width: 25%;
+    max-width: 25%;
     position: fixed;
     left: 0;
     top: 0;
@@ -399,7 +400,7 @@ a:hover {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 8px 27px;
+    /* padding: 8px 50px; */
     position: fixed;
     top: 0;
     right: 0;
@@ -416,7 +417,7 @@ a:hover {
 
 @media (min-width: 992px) {
     .dashboard-app {
-        margin-left: 30%;
+        margin-left: 25%;
     }
     .dashboard-compact .dashboard-app {
         margin-left: 0;
@@ -464,7 +465,7 @@ a:hover {
 
 @media (min-width: 992px) {
     .dashboard-toolbar {
-        left: 30%;
+        left: 25%;
     }
     .dashboard-compact .dashboard-toolbar {
         left: 0;
@@ -639,7 +640,7 @@ input[type=number] {
   .btn-outline-prima{
     border: 2px solid black;
     border-radius: 10px;
-    background-color: white;
+    background-color: transparent;
     padding: 7px 14px;
     font-size: 16px;
     cursor: pointer;
@@ -647,7 +648,21 @@ input[type=number] {
     color: #DA6200;
     text-decoration: none;
   }
+  .btn-outline-dash{
+    border: 3px solid #629509;
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+  }
   .btn-outline-prima:hover{
+    text-decoration: none;
+    color: #DA6200;
+  }
+  .btn-outline-dash:hover{
     text-decoration: none;
     color: #DA6200;
   }
@@ -674,12 +689,6 @@ input[type=number] {
     height: 200px;
   }
 
-  html,
-body {
-  position: relative;
-  height: 100%;
-}
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -705,4 +714,22 @@ body {
 	height: 32px;
 	margin-top: -16px;
     color: green;
+}
+
+
+    .balance-box{
+        border-radius: 25px;
+        background-image: linear-gradient(rgba(147, 224, 15),rgba(98, 149, 9, 1));
+    }
+    .hr-line{
+        border-top: 4px solid rgba(98, 149, 9, 1);
+    }
+.news-box{
+    border: 2px solid #629509;
+    border-radius: 20px;
+}
+.btn-view{
+    background-color: #DA6200;
+    border-radius: 20px;
+    color: white;
 }
