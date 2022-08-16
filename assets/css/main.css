@@ -1,6 +1,7 @@
 @font-face {
-    font-family: ginger;
-    src: url("../font/F37GingerRegular.ttf");
+    font-family: Ginger;
+    src: local("F37GingerRegular"),
+    url("../font/F37GingerRegular.ttf") format("truetype");
 }
 
 *,
@@ -16,7 +17,7 @@
 }
 
 html {
-    font-family: ginger;
+    font-family: Ginger !important;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -28,12 +29,11 @@ nav {
 
 body {
     margin: 0;
-    font-family: ginger;
+    font-family: Ginger !important;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    
 }
 
 h1,
@@ -59,6 +59,32 @@ a {
 a:hover {
     color: black;
     text-decoration: underline;
+}
+
+/*Bootstrap Settings*/
+.btn-primary{
+    background-image: linear-gradient(rgba(218, 98, 0, 1),rgba(98, 149, 9, 1));
+    text-decoration: none;
+    border-color: #629509 !important;
+    background-color: #629509 !important;
+}
+.btn-primary:focus,
+.btn-primary:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+.btn-primary:hover{
+    border-color: #629509 !important;
+    text-decoration: none !important;
+    background-color: #629509 !important;
+}
+.btn-outline-success{
+    color: #DA6200 !important;
+    background-color: #fff !important;
+    border-color: #629509 !important;
+}
+.links{
+    color: black;
 }
 
 .card {
@@ -130,8 +156,8 @@ a:hover {
 }
 
 .dashboard-nav {
-    min-width: 25%;
-    max-width: 25%;
+    min-width: 30%;
+    max-width: 30%;
     position: fixed;
     left: 0;
     top: 0;
@@ -400,7 +426,7 @@ a:hover {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    /* padding: 8px 50px; */
+    padding: 8px 27px;
     position: fixed;
     top: 0;
     right: 0;
@@ -417,7 +443,7 @@ a:hover {
 
 @media (min-width: 992px) {
     .dashboard-app {
-        margin-left: 25%;
+        margin-left: 30%;
     }
     .dashboard-compact .dashboard-app {
         margin-left: 0;
@@ -465,7 +491,7 @@ a:hover {
 
 @media (min-width: 992px) {
     .dashboard-toolbar {
-        left: 25%;
+        left: 30%;
     }
     .dashboard-compact .dashboard-toolbar {
         left: 0;
@@ -536,16 +562,19 @@ hr.line-breaker{
 .equal-to{
     color: #DA6200;
 }
+.info-section{
+    background-color: #F2F2F2;
+}
 .floatingInput{
-    color: #629509;
+    color: #629509 !important;
     text-align: left;
 }
 .form-control{
-    border: 2px solid #629509;
+    border: 2px solid #629509 !important;
 }
 .input-group-text{
     color: #DA6200;
-    border: 2px solid #629509;
+    border: 2px solid #629509 !important;
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -574,8 +603,8 @@ input[type=number] {
     width: 70px;
 }
 .card{
-    border-radius: 20px;
-    border: 2px solid #629509;
+    border-radius: 20px !important;
+    border: 2px solid #629509 !important;
 }
 .card-title{
     color: #629509;
@@ -613,15 +642,6 @@ input[type=number] {
     font-size: 40px;
     color: #629509;
   }
-  .btn-primary{
-    background-image: linear-gradient(rgba(218, 98, 0, 1),rgba(98, 149, 9, 1));
-    text-decoration: none;
-    border-color: #fff;
-  }
-  .btn-primary:hover{
-    border-color: #fff;
-    text-decoration: none;
-  }
   .academy-logo{
     width:230px;
   }
@@ -632,6 +652,10 @@ input[type=number] {
   }
   .academy{
     margin-bottom: 40px;
+    background-color: #EFF4E6;
+  }
+  .testimonials{
+    background-color: #da62001a;
   }
   .logo-img{
     width: 120px;
@@ -640,7 +664,7 @@ input[type=number] {
   .btn-outline-prima{
     border: 2px solid black;
     border-radius: 10px;
-    background-color: transparent;
+    background-color: white;
     padding: 7px 14px;
     font-size: 16px;
     cursor: pointer;
@@ -648,21 +672,7 @@ input[type=number] {
     color: #DA6200;
     text-decoration: none;
   }
-  .btn-outline-dash{
-    border: 3px solid #629509;
-    border-radius: 25px;
-    background-color: transparent;
-    font-size: 25px;
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-    white-space: nowrap;
-  }
   .btn-outline-prima:hover{
-    text-decoration: none;
-    color: #DA6200;
-  }
-  .btn-outline-dash:hover{
     text-decoration: none;
     color: #DA6200;
   }
@@ -682,15 +692,6 @@ input[type=number] {
     border-radius: 15px;
     background-color: #EFF4E6;
   }
-<<<<<<< HEAD
-  .subgoal{
-    border: 2px solid #EFF4E6;
-    border-radius: 15px;
-    background-color: #EFF4E6;
-    height: 200px;
-  }
-=======
->>>>>>> fcbec4599a32a776e8d4bfaa06b00c27baa8ebb0
 
 .swiper {
   width: 100%;
@@ -716,7 +717,8 @@ input[type=number] {
 	width: 32px;
 	height: 32px;
 	margin-top: -16px;
-    color: green;
+    color: #629509!important;
+    font-weight: bolder;
 }
 
 
