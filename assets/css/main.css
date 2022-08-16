@@ -682,12 +682,15 @@ input[type=number] {
     border-radius: 15px;
     background-color: #EFF4E6;
   }
+<<<<<<< HEAD
   .subgoal{
     border: 2px solid #EFF4E6;
     border-radius: 15px;
     background-color: #EFF4E6;
     height: 200px;
   }
+=======
+>>>>>>> fcbec4599a32a776e8d4bfaa06b00c27baa8ebb0
 
 .swiper {
   width: 100%;
