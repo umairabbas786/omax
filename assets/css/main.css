@@ -756,3 +756,14 @@ input[type=number] {
     background-color: #DA6200;
     border-radius: 50%;
 }
+.balance-box2{
+    border-radius: 25px;
+
+}
+.edit-a{
+    color: black;
+    font-size:20px;
+}
+.orange{
+    color: #DA6200;
+}
