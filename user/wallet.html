@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="../assets/css/main.css">
     <!--swiper slider-->
     <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
@@ -105,14 +108,97 @@
 
                         </div>
                         <hr class="my-5 line-breaker">
-                </div>    
+                        
+                <div class="row">
+                    <div class="col-md-6 col-12 my-md-0 my-5">
+                        <div class="news-box px-5 pt-5">
+                            <div class="col-3">
+                            <h3 class="card-title my-3">Exchange</h3><hr class="line-breaker"></div>
+                           <p class="orange my-3">You can buy and sell your crypto assets here</p>
+                           <div class="btn-container">
+                            <label class="switch btn-color-mode-switch my-3">
+                                        <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                                        <label for="color_mode" data-on="Sell" data-off="Buy" class="btn-color-mode-switch-inner"></label>
+                                    </label>	</div>
+                                    <select class="form-select my-5" aria-label="Default select example">
+                                        <option selected>Select Coin</option>
+                                        <option value="1">Bitcoin</option>
+                                        <option value="2">Etherum</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                      <select class="form-select my-5" aria-label="Default select example">
+                                        <option selected>Select Preffered supported Chain</option>
+                                        <option value="1">Bitcoin</option>
+                                        <option value="2">Etherum</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                      <div class="address-wallet my-5">
+                                        <input class="asd mx-" type="text" placeholder="  Input your wallet address">
+                                      </div>
+                                       <div class="address-wallet my-5">
+                                        <input class="asd mx-" type="number" placeholder="  Amount">
+                                      </div>
+                                      <p class="my-3" style="font-size: 12px;">Kindly ensure you fill in the right information. Email or text will be sent to confirm infos.</p>
+                            
+                            
+                           
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="news-box px-5 pt-5">
+                            <div class="col-3">
+                            <h3 class="card-title my-3">Summary</h3><hr class="line-breaker"></div>
+                           <p class="orange my-3">Here is a summary of your transaction</p>
+                           <div class="btn-container">
+                              <label class="switch btn-color-mode-switch my-3">
+                                        <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                                        <label for="color_mode" data-on="Sell" data-off="Buy" class="btn-color-mode-switch-inner"></label>
+                                    </label>	
+                           </div>
+                           <ul class="cross-btn">                          
+                            <li class="cross-style my-2">Bitcoin<span class="close">&times;</span></li>
+                            <li class="cross-style my-2">TRP 20<span class="close">&times;</span></li>
+                            <li class="cross-style my-2">Wallet<span class="close">&times;</span></li>
+                            <li class="cross-style my-2">500$<span class="close">&times;</span></li>
+                          </ul>                         
+                        </div>
+                        <div class="proceed-btn d-flex justify-content-md-end justify-content-center my-md-5">
+                            <a href="" class="log btn btn-view btn-lg my-5">Proceed to Buy</a>
+
+                        </div>
+
+                    </div>
+                </div>
+               </div>
               
 
 
-            </div>        
+            </div>       
+             
         </div>            
 
 
 
 
     </div>
+    <script>
+        var closebtns = document.getElementsByClassName("close");
+        var i;
+        
+        for (i = 0; i < closebtns.length; i++) {
+          closebtns[i].addEventListener("click", function() {
+            this.parentElement.style.display = 'none';
+          });
+        }
+        </script>
+     <!-- jquery -->
+     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+     <!-- popper js -->
+     <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+     <!-- bootstrap 5.2.0 -->
+     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <!-- main js -->
+     <script src="../assets/js/main.js"></script>
+    </body>
+    </html>
