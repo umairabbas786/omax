@@ -733,6 +733,11 @@ input[type=number] {
     border-radius: 20px;
     color: white;
 }
+.btn-view1{
+    background-color: white;
+    border-radius: 20px;
+    color: #DA6200;
+}
 
 .btn-outline-primary{
     text-decoration: none;
@@ -934,4 +939,24 @@ border-radius: 0px;
     border: 2px solid green;
      border-radius: 25px;
       width: 40%;
+  }
+  .left-side{
+    background-color: #629509
+  }
+  .bg-login{
+    width: 100%;
+    size: cover;
+  }
+  .logo-login{
+    width: 150px;
+  }
+  .border-cls{
+    width: 70%;
+    border-radius: 75px;
+  }
+  .forp{
+    text-decoration: underline;
+  }
+  .log-btn{
+    margin-left: 120px;
   }

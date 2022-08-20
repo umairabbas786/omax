@@ -67,27 +67,37 @@
                     <div class="row">
                     <h3 class="mb-5" style="color: #DA6200;">Wallet</h3>                    
                         <div class="col-md-4 col-12 mb-md-0 mb-3">
-                            <div class="border balance-box2 py-2">
-                                <h4 style="color: #629509;" class="text-center my-3">Available Balance</h4>
-                                <h1 style="color: #629509;" class="text-center">N 200,000.00</h1>
-                                <h4 style="color: #DA6200;" class="text-center">Naira</h4>
+                            <div class="border balance-box py-2">
+                                <h4 style="color: white;" class="text-center my-3">Available Balance</h4>
+                                <h1 style="color:  white;" class="text-center">N 200,000.00</h1>
+                                <h4 style="color: white;" class="text-center">Naira</h4>
                                 <div class="btn-wallet d-flex justify-content-around">
-                                  <a href="" class="log btn btn-view btn-lg mb-3 mx-3">Withdraw</a>
-                                  <a href="" class="log btn btn-view btn-lg mb-3 mx-3">Desposit</a>
+                                  <a href="" class="log btn btn-view1 btn-lg mb-3 mx-3 mt-2">Withdraw  ></a>
+                                  <a href="" class="log btn btn-view btn-lg mb-3 mx-3 mt-2">Deposit  ></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-12 mb-md-0 mb-3">
-                            <div class="border balance-box2 py-2">
-                                <h4 style="color: #629509;" class="text-center my-3">Referal Bonus</h4>
-                                <h1 style="color: #629509;" class="text-center">N 0.00</h1>
-                                <h4 style="color: #DA6200;" class="text-center">Naira</h4>
-                                <div class="btn-wallet d-flex justify-content-end">
-                                  <a href="" class="log btn btn-view btn-lg mb-3 mx-3">Withdraw</a>
+                            <div class="border balance-box py-2">
+                                <h4 style="color: white;" class="text-center my-3">Available Balance</h4>
+                                <h1 style="color: white;" class="text-center">N 200,000.00</h1>
+                                <h4 style="color: white;" class="text-center">Naira</h4>
+                                <div class="btn-wallet d-flex justify-content-center">
+                                  <a href="" class="log btn btn-view1 btn-lg mb-3 mx-3 mt-2">Trasnfer  ></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-12 mb-md-0 mb-3 order-first order-md-last d-md-flex justify-content-md-end  ">
+                        <div class="col-md-4 col-12 mb-md-0 mb-3">
+                            <div class="border balance-box py-2">
+                                <h4 style="color: white;" class="text-center my-3">Referal Bonus</h4>
+                                <h1 style="color: white;" class="text-center">N 0.00</h1>
+                                <h4 style="color: white;" class="text-center">Naira</h4>
+                                <div class="btn-wallet d-flex justify-content-center">
+                                  <a href="" class="log btn btn-view1 btn-lg mb-3 mx-3 mt-2">Withdraw  ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-4 col-12 mb-md-0 mb-3 order-first order-md-last d-md-flex justify-content-md-end  ">
                             <div class="bank-card">
                                 
                                 <h3 class="mb-3" style="color: #629509">Bank details    
@@ -104,7 +114,7 @@
                             <hr>                           
                         </div>
 
-                        </div>   
+                        </div>    -->
 
                         </div>
                         <hr class="my-5 line-breaker">
@@ -120,20 +130,28 @@
                                         <input type="checkbox" name="color_mode" id="color_mode" value="1">
                                         <label for="color_mode" data-on="Sell" data-off="Buy" class="btn-color-mode-switch-inner"></label>
                                     </label>	</div>
-                                    <select class="form-select my-5" aria-label="Default select example">
-                                        <option selected>Select Coin</option>
-                                        <option value="1">Bitcoin</option>
-                                        <option value="2">Etherum</option>
-                                        <option value="3">Three</option>
-                                      </select>
-                                      <select class="form-select my-5" aria-label="Default select example">
-                                        <option selected>Select Preffered supported Chain</option>
-                                        <option value="1">Bitcoin</option>
-                                        <option value="2">Etherum</option>
-                                        <option value="3">Three</option>
-                                      </select>
-                                      <div class="address-wallet my-5">
-                                        <input class="asd mx-" type="text" placeholder="  Input your wallet address">
+                                    <div class="form-floating mb-2">
+                                        <select id="floatingInput" class="form-select my-5" aria-label="Default select example">
+                                            <option selected>-Select-</option>
+                                            <option value="1">Bitcoin</option>
+                                            <option value="2">Etherum</option>
+                                            <option value="3">Three</option>
+                                          </select>
+                                        <label style="font-size:20px; color: black;" for="floatingInput">Coin/Token</label>
+                                      </div>
+                                      <div class="form-floating mb-2">
+                                        <select id="floatingInput" class="form-select my-5" aria-label="Default select example">
+                                            <option selected>-Select-</option>
+                                            <option value="1">Bitcoin</option>
+                                            <option value="2">Etherum</option>
+                                            <option value="3">Three</option>
+                                          </select>
+                                        <label style="font-size:20px; color: black;" for="floatingInput">Prefered supported chain</label>
+                                      </div>
+                                    
+                                      <div class="form-floating mb-3 border-cls">
+                                        <input type="text" placeholder="input your wallet address" class="form-control form-control-lg rad" id="floatingInput" >
+                                        <label  for="floatingInput" class="floatingInput">Wallet address</label>
                                       </div>
                                        <div class="address-wallet my-5">
                                         <input class="asd mx-" type="number" placeholder="  Amount">
