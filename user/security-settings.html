@@ -96,57 +96,59 @@
                         </div>
                         <div class="col-md-5 d-flex justify-content-around col-12 my-sm-3">
                             <img class="d-none d-md-block" src="../assets/images/line.png" alt=""> 
-                            <a href="" class="log btn btn-view btn-lg px-4">Bank Information  <i class="fa-solid fa-info mx-md-2" aria-hidden="true"></i>
+                            <a href="bank-settings.html" class="log btn btn-view2 btn-lg px-4">Bank Information  <i class="fa-solid fa-info mx-md-2" aria-hidden="true"></i>
+
                             </a> 
                                                        
                             <img class="d-none d-md-block" src="../assets/images/line.png" alt="">                        
                         </div>
                         <div class="col-md-3 col-12 d-sm-flex justify-content-center my-sm-3">
-                            <a href="security-settings.html" class="log btn btn-view2 btn-lg px-4">Security<i class="fa-solid fa-shield-halved mx-4"></i>
-
-                            </a>                            
+                            <a href="" class="log btn btn-view btn-lg px-4">Security<i class="fa-solid fa-shield-halved mx-4"></i>
+                            </a> 
+                                                      
                         </div>
                         
                     </div>
                     <hr class="line-breaker">
-                    <h2 style="color:#629509">Current Account</h2>
-                    <p>Active Bank account details</p>
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-md-6">
                             <div style="width:90%;" class="form-floating mb-2">
-                                <input id="floatingInput" class="form-select " value="123456789">
+                                <input style="color:#DA6200" type="password" id="floatingInput" class="form-select " value="123456789">
                             </input>
-                                <label style="font-size:20px; color: black;" for="floatingInput">Account Number</label>
+                                <label style="font-size:20px; color: black;" for="floatingInput">Change Password</label>
                               </div>
                         </div>
                         <div class="col-md-6">
                             <div style="width:90%;" class="form-floating mb-2">
-                                <input id="floatingInput" class="form-select " value="Ajibola Michael" type="text">
+                                <input style="color:#DA6200" type="password" id="floatingInput" class="form-select " value="1234" >
                             </input>
-                                <label style="font-size:20px; color: black;" for="floatingInput">Account Name</label>
+                                <label style="font-size:20px; color: black;" for="floatingInput">Transaction pin</label>
                               </div>
                         </div>
                     </div>
                     <div class="row mt-4">
                         <div class="col-md-6">
-                            <div style="width:90%;" class="form-floating mb-2">
-                                <select id="floatingInput" class="form-select " >
-                                    <option selected>First Bank Nigeria</option>
-                                    <option value="1">Bitcoin</option>
-                                    <option value="2">Etherum</option>
-                                    <option value="3">Three</option>
-                                  </select>
-                                <label style="font-size:20px; color: black;" for="floatingInput">Bank Name</label>
+                            <div class="activ p-4 bg-white" style="width: 90%;">
+                                <h5>Two factor Authentication</h5>
+                                <p>Activate two factor Authentication for extra security</p>
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="orange">Activate</h5>
+                                    <label class="switch-toggle">
+                                        <input type="checkbox" checked>
+                                        <span class="slider-toggle round-toggle"></span>
+                                      </label>
+                                </div>                            
                             </div>
+                           
                         </div>
-                        <div class="col-md-6 d-flex justify-content-end mt-4 px-5">
-                            <a style="color: black;" href="#">Delete Account <i style="color:#DA6200" class="fa-solid fa-trash-can mx-2"></i></a>
-                        </div>
+                                               
                     </div>
-                    <hr class="line-breaker">
-                    <a style="color:black;" href="" class="log btn btn-view2 btn-lg px-4"><i style="color:#DA6200" class="fa-solid fa-circle-plus mx-3"></i>Add Account</i>
-
-                    </a> 
+                    <div class="logout mt-5">
+                        <a style="color: black;" href="#">Log Out 
+                            <i style="color:#DA6200" class="mx-2 fa-solid fa-arrow-right-from-bracket"></i></a>
+                        </a> 
+                    </div>
+                  
 
                 </div>
                 <div class="save-button d-md-flex justify-content-md-end d-flex justify-content-center p-4">
