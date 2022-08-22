@@ -893,8 +893,8 @@ label {
 .form-select {
     border:0px;
 outline:0px;
-border-bottom: 2px solid black;
-border-radius: 0px;
+border: 2px solid #629509;
+border-radius: 15px;
 }
 .asd{
     border: 0px;
@@ -958,3 +958,22 @@ border-radius: 0px;
     height: 80vh!important;
     background-color: black;
   }
+
+  /* SETTINGS STYLESHEET */
+
+  .settings-bg{
+    background-color: #F8F8F8;
+    border: 5px solid #F8F8F8;
+    border-radius: 20px;
+  }
+  .vl-2 {
+    border-left: 4px solid green;
+    height: 50px;
+
+  }
+  .btn-view2{
+    background-color: white;
+    border-color: #DA6200;
+    border-radius: 20px;
+    color: #DA6200;
+}
