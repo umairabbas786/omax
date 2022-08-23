@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omax</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon/favicon.png">
+    <!-- bootstrap 5.2.0 -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/acc2c02c7c.js" crossorigin="anonymous"></script>
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <!--swiper slider-->
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+            <header>
+                <a href="#" class="menu-toggle">
+                    <i class="fa-solid fa-xmark fa-2x"></i>
+                </a>
+                <a href="#" class="brand-logo text-center">
+                    <img src="../assets/logo/Omax.png" alt="logo" width="70%" height="70%">
+                    <small class="d-none d-md-block">Trading without borders ...</small>
+                </a>
+            </header>
+            <nav class="dashboard-nav-list text-center py-5">
+                <a href="#" class="dashboard-nav-item d-flex" style="justify-content: space-around;">
+                    <img src="../assets/images/profile.png" alt="profile picture" class="pr-4 profile-pic">
+                    <h3 class="profile-name">Ajibola <br><span class="view-profile">view profile</span></h3>&nbsp;&nbsp;
+                </a>
+                <div class="nav-item-divider"></div>
+                <a href="index.html" class="dashboard-nav-item active"><i class="fa-solid fa-house-chimney icon fa-2x"></i> Home
+                </a>
+                <a href="wallet.html" class="dashboard-nav-item"><i class="fa-solid fa-wallet icon fa-2x"></i> Wallet</a>
+                <a href="p2p.html" class="dashboard-nav-item"><i class="fa-solid icon fa-arrows-rotate"></i> Peer to peer (P2P)
+                </a>
+                <a href="#" class="dashboard-nav-item"><i class="fa-solid icon fa-clock-rotate-left"></i> Trade history
+                </a>
+                <a href="notification.html" class="dashboard-nav-item mt-4"><i class="fa-solid icon fa-bell"></i>
+                    Notifications </a>
+                <a href="#" class="dashboard-nav-item"><i class="fa-solid icon fa-gear"></i> Settings </a>
+                <a href="#" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
+            </nav>
+        </div>
+        <div class='dashboard-app'>
+            <header class='dashboard-toolbar px-5 d-sm-flex justify-sm-content-center align-sm-content-center'>
+                <a href="#" class="menu-toggle text-start"><i class="fa-solid fa-bars-staggered fa-2x"></i></a>
+                <div class="d-md-none d-block text-end ms-auto">
+                    <span class="profile-name mx-2" style="font-size:larger">Ajibola</span>
+                    <a href=""><img src="../assets/images/profile.png" alt="profile picture" width="22%"></a>
+                </div>
+            </header>
+            <div class='dashboard-content'>
+                <div class='container'>
+                    <div class="row my-3">
+                        <div class="col-md-8 order-last order-md-first d-none d-md-block">
+                            <div class="dashboard-nav-item d-flex">
+                                <img src="../assets/images/profile.png" alt="profile picture" style="width: 150px">
+                                <h3 class="profile-name mx-4">Hi Ajibola! <br><span class="view-profile ">Welcome to your
+                                        dashboard<br>want to become a vendor ?  <a class="orange fw-bold" href="#">Apply here</a></span></h3>&nbsp;&nbsp;
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12 order-first order-md-last mb-md-0 mb-3">
+                            <div class="border balance-box py-2">
+                                <h4 style="color: white;" class="text-center my-3">Available Balance</h4>
+                                <h1 style="color: white;" class="text-center">N 200,000.00</h1>
+                                <h4 style="color: #DA6200;" class="text-center">Naira</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="line-breaker">
+                </div>
+
+                <div class="container p-4 settings-bg mt-md-5">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h2 style="color: #629509">
+                                Profile information
+                            </h2><hr class="line-breaker d-md-block d-none" style="width: 68%;"> 
+                            <div class="profile-settings ">
+                                <div class="image-profile " style="display:inline-block;vertical-align:top;">
+                                    <img src="../assets/images/profile-sq.png" alt="">          
+                                </div>
+                                <div class="settings-profile mt-3 d-inline-block">
+                                    <h5>Change Profile Picture</h5>
+                                    <p style="font-size: 13px;">maximum file size for profile avatar is 2MB</p>
+                                    <a href="" class="log btn btn-view btn-sm px-4">Upload  <i class="fa-solid fa-upload" aria-hidden="true"></i>
+                                    </a> 
+                                    <a href="security-settings.html" class="log btn btn-view2 btn-sm">Edit Image  <i class="fa-solid fa-pen mx-2"></i>
+                                    </a> 
+
+                                </div>
+                            </div>    
+                                       
+                        </div>
+                        <hr class="d-md-none my-5 line-breaker">
+                        <div class="col-md-7 ">
+                            <h3 class="orange text-md-end">Incomplete Verification</h3>
+                            <p class="text-md-end">complete your verification below!</p>
+                            <div class="d-md-flex justify-content-end">
+                                <a href="" class="log btn btn-view btn-lg px-4 mb-md-0 mb-3">Verify  <i class="fa-solid fa-shield-halved mx-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="line-breaker">
+                    <div class="row">
+                        <div class="col-md-6 my-3">
+                            <div style="width:90%;" class="form-floating mb-2">
+                                <input id="floatingInput" class="form-select " value="Enter your first name here">
+                            </input>
+                                <label style="font-size:20px; color: black;" for="floatingInput">First Name</label>
+                              </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <div style="width:90%;" class="form-floating mb-2">
+                                <input id="floatingInput" class="form-select " value="Enter your last name here" type="text">
+                            </input>
+                                <label style="font-size:20px; color: black;" for="floatingInput">Last Name</label>
+                              </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <div style="width:90%;" class="form-floating mb-2">
+                                <input id="floatingInput" class="form-select " value="example@email.com" type="text">
+                            </input>
+                                <label style="font-size:20px; color: black;" for="floatingInput">Email</label>
+                              </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <div style="width:90%;" class="form-floating mb-2">
+                                <input id="floatingInput" class="form-select " value="+123456789" type="text">
+                            </input>
+                                <label style="font-size:20px; color: black;" for="floatingInput">Phone number</label>
+                              </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <div style="width:90%;" class="form-floating mb-2">
+                                <input id="floatingInput" class="form-select " value="DD-MM-YYYY">
+                            </input>
+                                <label style="font-size:20px; color: black;" for="floatingInput">Date of birth</label>
+                              </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <div style="width:90%;" class="form-floating mb-2">
+                                <input id="floatingInput" class="form-select " value="Select your country" type="text">
+                            </input>
+                                <label style="font-size:20px; color: black;" for="floatingInput">Country</label>
+                              </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="save-button d-md-flex justify-content-md-end d-flex justify-content-center p-4">
+                    <a href="" class="log btn btn-view btn-lg px-4">Save Changes  <i class="fa-solid fa-floppy-disk mx-2"></i>
+                    </a>
+                </div>
+        
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jquery -->
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- popper js -->
+    <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <!-- bootstrap 5.2.0 -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- main js -->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
