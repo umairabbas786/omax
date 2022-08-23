@@ -718,6 +718,17 @@ input[type=number] {
 }
 
 
+
+
+
+
+
+
+
+.auth-cards{
+    border-radius: 50px;
+}
+
     .balance-box{
         border-radius: 25px;
         background-image: url("../icons/balance.png"), linear-gradient(rgba(147, 224, 15),rgba(98, 149, 9, 1));
