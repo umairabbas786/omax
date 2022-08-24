@@ -528,7 +528,7 @@ a:hover {
 }
 
 hr.line-breaker{
-    border: 2px solid #629509;
+    border-top: 4px solid #629509;
     opacity: 1;
 }
 
