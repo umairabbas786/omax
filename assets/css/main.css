@@ -1052,3 +1052,17 @@ border-radius: 0px;
     border: 2px solid #629509;
     border-radius: 25px;
   }
+
+  /* News1 settings */
+  .icon-arrow{
+    font-size: 30px;
+  }
+  .green{
+    color: #629509;
+  }
+  .news-image{
+    width: 30%;
+  }
+  .news-text{
+    font-size: 19px;
+  }
