@@ -1066,3 +1066,7 @@ border-radius: 0px;
   .news-text{
     font-size: 19px;
   }
+  .input-comment{
+    height: 150px;
+    box-shadow: 0 0 0 2px #629509;
+}
