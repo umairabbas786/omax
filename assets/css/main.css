@@ -1061,7 +1061,7 @@ border-radius: 0px;
     color: #629509;
   }
   .news-image{
-    width: 30%;
+    width: 90%;
   }
   .news-text{
     font-size: 19px;
@@ -1077,4 +1077,10 @@ border-radius: 0px;
 .reply{
     color: black;
     text-decoration: none;
+}
+.comment-reply-box{
+    border: 2px solid #629509;
+    box-shadow: 0 0 0 2px #629509;
+    border-radius: 7px;
+
 }
