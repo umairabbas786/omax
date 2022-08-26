@@ -956,7 +956,7 @@ border-radius: 0px;
     background-color: #629509
   }
   .logo-login{
-    width: 150px;
+    width: 120px;
   }
   .border-cls{
     width: 100%;
@@ -1061,7 +1061,7 @@ border-radius: 0px;
     color: #629509;
   }
   .news-image{
-    width: 90%;
+    width: 30%;
   }
   .news-text{
     font-size: 19px;
@@ -1084,3 +1084,6 @@ border-radius: 0px;
     border-radius: 7px;
 
 }
+.news-image2{
+    width: 90%;
+  }
