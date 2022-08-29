@@ -528,7 +528,7 @@ a:hover {
 }
 
 hr.line-breaker{
-    border-top: 4px solid #629509;
+    border-top: 3px solid #629509;
     opacity: 1;
 }
 
@@ -741,12 +741,12 @@ input[type=number] {
 }
 .btn-view{
     background-color: #DA6200;
-    border-radius: 20px;
+    border-radius: 12px;
     color: white;
 }
 .btn-view1{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 12px;
     color: #DA6200;
 }
 
@@ -984,9 +984,9 @@ border-radius: 0px;
 
   }
   .btn-view2{
-    background-color: white;
+    background-color: #FDF7F2;
     border-color: #DA6200;
-    border-radius: 20px;
+    border-radius: 12px;
     color: #DA6200;
 }
 .switch-toggle {
