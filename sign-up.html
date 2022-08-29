@@ -24,7 +24,7 @@
 
 <body>
     <div class="container">
-        <div class="row m-5 no-gutters shadow-lg">
+        <div class="row no-gutters shadow-lg">
             <div class="col-md-6 d-none d-xl-block">
                 <div class="left-side py-4">
                     <h2 class="text-center text-white">OmaX</h2>
@@ -36,31 +36,88 @@
                 <div class="logo d-flex justify-content-end mt-2">
                     <img class="logo-login" src="assets/logo/logo.png" alt="">
                 </div>
-                <h4 class="orange my-5">Sign Up</h4>
+                <h4 class="orange">Sign Up</h4>
                 <p class="text-start">This takes just a few moments to join the easy way</p>
                 <form method="post">
-                <div class="form-floating mb-3 border-cls mt-4">
-                    <input type="text" placeholder="input your wallet address" class="form-control form-control-lg rad"
-                        id="floatingInput" required>
-                    <label style="font-size:1.2rem;" for="floatingInput" class="floatingInput"> <i class="fa fa-user mx-2" aria-hidden="true"></i>
-                 Username</label>
+                <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-floating mb-3 border-cls mt-2">
+                                <input type="text" placeholder="input your wallet address" class="form-control form-control-lg rad"
+                                    id="floatingInput" required>
+                                <label style="font-size:1.2rem;" for="floatingInput" class="floatingInput"> <i class="fa fa-user mx-2" aria-hidden="true"></i>
+                             First Name</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-floating mb-3 border-cls mt-2">
+                                <input type="text" placeholder="input your wallet address" class="form-control form-control-lg rad"
+                                    id="floatingInput" required>
+                                <label style="font-size:1.2rem;" for="floatingInput" class="floatingInput"> <i class="fa fa-user mx-2" aria-hidden="true"></i>
+                             Last Name</label>
+                            </div>
+                        </div> 
+                        <div class="col-12 col-md-6">
+                            <div class="form-floating mb-3 border-cls mt-2">
+                                <input style="color: #629509" type="date" placeholder="input your wallet address" class="form-control form-control-lg rad"
+                                    id="floatingInput" required>
+                                <label style="font-size:1.2rem;" for="floatingInput" class="floatingInput"> <i class="fa-solid fa-calendar mx-2"></i>
+                             date of birth</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-floating mt-md-2">
+                                <select id="floatingInput" class="form-select country-su" >
+                                    <option selected>-Select-</option>
+                                    <option value="1">Bitcoin</option>
+                                    <option value="2">Etherum</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                                <label style="font-size:20px; color: #629509;" for="floatingInput">Country</label>
+                              </div>
+                        </div>
+                       
+                    <div class="form-floating mb-3 border-cls mt-2">
+                        <input type="text" placeholder="input your wallet address" class="form-control form-control-lg rad"
+                            id="floatingInput" required>
+                        <label style="font-size:1.2rem;" for="floatingInput" class="floatingInput"> <i class="fa fa-user mx-2" aria-hidden="true"></i>
+                     Username</label>
+                    </div>
+                    <div class="form-floating mb-3 border-cls mt-2">
+                        <input type="number" placeholder="input your wallet address" class="form-control form-control-lg rad"
+                            id="floatingInput" required>
+                        <label style="font-size:1.2rem;" for="floatingInput" class="floatingInput"> <i class="fa-solid fa-phone mx-2"></i>
+                     Phone</label>
+                    </div>
+                    <div class="form-floating mb-3 border-cls mt-2">
+                        <input type="email" placeholder="input your wallet address" class="form-control form-control-lg rad"
+                            id="floatingInput" required>
+                        <label style="font-size:1.2rem;" for="floatingInput" class="floatingInput"><i class="fa fa-envelope mx-2" aria-hidden="true"></i>
+                            Email address</label>
+                    </div>
+    
+                    <div class="col-md-6 col-12">
+                        <div class="form-floating mb-3 border-cls mt-2">
+                            <input type="password" placeholder="input your wallet address"
+                                class="form-control form-control-lg rad" id="floatingInput" required>
+                            <label style="font-size:1.2rem;" for="floatingInput" class="floatingInput">
+                                <i class="fa-solid fa-lock mx-2"></i>Password</label>
+                        </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                        <div class="form-floating mb-3 border-cls mt-2">
+                            <input type="password" placeholder="input your wallet address"
+                                class="form-control form-control-lg rad" id="floatingInput" required>
+                            <label style="font-size:1.2rem;" for="floatingInput" class="floatingInput">
+                                <i class="fa-solid fa-lock mx-2"></i>Transaction Pin</label>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="log d-flex justify-content-lg-end justify-content-center">
+                        <button type="submit" class="log btn btn-view btn-lg my-4 mx-3">Sign Up ></button>
+                    </div>
+                 </form>
                 </div>
-                <div class="form-floating mb-3 border-cls mt-4">
-                    <input type="email" placeholder="input your wallet address" class="form-control form-control-lg rad"
-                        id="floatingInput" required>
-                    <label style="font-size:1.2rem;" for="floatingInput" class="floatingInput"><i class="fa fa-envelope mx-2" aria-hidden="true"></i>
-                        Email address</label>
-                </div>
-
-                <div class="form-floating mb-3 border-cls mt-4">
-                    <input type="password" placeholder="input your wallet address"
-                        class="form-control form-control-lg rad" id="floatingInput" required>
-                    <label style="font-size:1.2rem;" for="floatingInput" class="floatingInput"><i class="fa-solid fa-lock mx-2"></i>Password</label>
-                </div>
-                <div class="log d-flex justify-content-end">
-                    <button type="submit" class="log btn btn-view btn-lg my-4 mx-3">Sign Up ></button>
-                </div>
-            </form>
+               
                 <a href="login.html" class="text-black">Already have an account? <span class="orange mx-2">Login</span></a>
            
             </div>

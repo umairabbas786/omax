@@ -1087,3 +1087,17 @@ border-radius: 0px;
 .news-image2{
     width: 90%;
   }
+  .iop{
+    background-color: #629509;
+    border: 2px solid #629509;
+    border-radius: 30px;
+  }
+  .copy-refer{
+    height: 100px;    }
+.ref-user{
+    border-radius: 30px;
+}
+.country-su{
+    border-radius: 10px;
+    border: 2px solid #629509
+}
