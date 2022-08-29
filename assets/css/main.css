@@ -749,6 +749,12 @@ input[type=number] {
     border-radius: 12px;
     color: #DA6200;
 }
+.btn-view3{
+    background-color: none;
+    border-radius: 12px;
+    border: 3px solid black;
+    color: black;
+}
 
 .btn-outline-primary{
     text-decoration: none;
@@ -1100,4 +1106,13 @@ border-radius: 0px;
 .country-su{
     border-radius: 10px;
     border: 2px solid #629509
+}
+.u-60{
+    width:9%;
+    border-top: 3px solid black;
+    opacity: 1;
+}
+.u-n{
+    border-top: 3px solid black;
+    opacity: 1;
 }
