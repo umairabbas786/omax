@@ -1156,3 +1156,22 @@ width: 160px;}
     border-bottom: 3px solid black;
     border-radius: 0%;
 }
+.ad-select:focus {
+    border: none;
+}
+.checkbox-round {
+    width: 1.6em;
+    height: 1.6em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #629509;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: #629509;
+}

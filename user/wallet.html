@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omax</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon/favicon.png">
+    <!-- bootstrap 5.2.0 -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/acc2c02c7c.js" crossorigin="anonymous"></script>
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <!--swiper slider-->
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+            <header>
+                <a href="#" class="menu-toggle">
+                    <i class="fa-solid fa-xmark fa-2x"></i>
+                </a>
+                <a href="#" class="brand-logo text-center">
+                    <img src="../assets/logo/Omax.png" alt="logo" width="70%" height="70%">
+                    <small class="d-none d-md-block">Trading without borders ...</small>
+                </a>
+            </header>
+            <nav class="dashboard-nav-list text-center py-5">
+                <a href="view-profile.html" class="dashboard-nav-item d-flex" style="justify-content: space-around;">
+                    <img src="../assets/images/profile.png" alt="profile picture" class="pr-4 profile-pic">
+                    <h3 class="profile-name">Ajibola <br><span class="view-profile">view profile</span></h3>&nbsp;&nbsp;
+                </a>
+                <div class="nav-item-divider"></div>
+                <a href="index.html" class="dashboard-nav-item active"><i class="fa-solid fa-house-chimney icon fa-2x"></i> Home
+                </a>
+                <a href="wallet.html" class="dashboard-nav-item"><i class="fa-solid fa-wallet icon fa-2x"></i> Wallet</a>
+                 <a href="p2p.html" class="dashboard-nav-item"><i class="fa-solid icon fa-arrows-rotate"></i> Peer to peer (P2P)
+                </a>
+                <a href="airtime.html" class="dashboard-nav-item"><i class="fa-solid fa-database"></i>Airtime & Data
+                </a>
+                <a href="utility-bills.html" class="dashboard-nav-item"><i class="fa-solid fa-money-bill"></i> Utility & Bills
+                </a>
+                <a href="trade-history.html" class="dashboard-nav-item"><i class="fa-solid icon fa-clock-rotate-left"></i> Trade history
+                </a>
+                <a href="notification.html" class="dashboard-nav-item mt-4"><i class="fa-solid icon fa-bell"></i>
+                    Notifications </a>
+                <a href="preferences-settings.html" class="dashboard-nav-item"><i class="fa-solid icon fa-gear"></i> Settings </a>
+                <a href="#" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
+            </nav>
+        </div>
+        <div class='dashboard-app'>
+            <header class='dashboard-toolbar px-5 d-sm-flex justify-sm-content-center align-sm-content-center'>
+                <a href="#" class="menu-toggle text-start"><i class="fa-solid fa-bars-staggered fa-2x"></i></a>
+                <div class="d-md-none d-block text-end ms-auto">
+                    <span class="profile-name mx-2" style="font-size:larger">Ajibola</span>
+                    <a href=""><img src="../assets/images/profile.png" alt="profile picture" width="22%"></a>
+                </div>
+            </header>
+            <div class='dashboard-content'>
+                <div class='container'>
+                    <div class="row">
+                    <h3 class="mb-5 fw-bold" style="color: #DA6200;">Wallet</h3>                    
+                        <div class="col-lg-8 col-12 mb-md-0 mb-3">
+                            <div class="border balance-box  p-4">
+                                <h4 style="color: white;" class="text-center my-3">Available Balance</h4>
+                                <h1 style="color:  white;" class="text-center">N 200,000.00</h1>
+                                <h4 style="color: white;" class="text-center mb-4">Naira</h4>
+                                <div class="btn-wallet d-none d-lg-flex justify-content-around">
+                                  <a href="withdraw.html" class="log btn btn-view1 btn-lg ">Withdraw  ></a>
+                                  <a href="deposit.html" class="log btn btn-view btn-lg ">Deposit  ></a>
+                                  <a href="transfer.html" class="log btn btn-view1 btn-lg ">Transfer  ></a>
+
+                                </div>
+                                <div class="btn-wallet d-lg-none d-flex justify-content-around">
+                                    <a href="withdraw.html" class="log btn btn-view1 btn-sm ">Withdraw  ></a>
+                                    <a href="deposit.html" class="log btn btn-view btn-sm ">Deposit  ></a>
+                                    <a href="transfer.html" class="log btn btn-view1 btn-sm ">Transfer  ></a>
+  
+                                  </div>
+                            </div>
+                        </div>
+                        
+
+                        </div>
+                        <hr class="my-5 line-breaker">
+                        
+                <div class="row">
+                    <div class="news-box p-5">
+                    <div class="col-12 my-md-0 my-5">                       
+                            <div class="col-3">
+                            <h3 class="card-title my-3 fw-bold">All Wallets</h3><hr class="line-breaker w-50"></div>
+                           <p class="orange my-3 fw-bold">All of your Wallets</p>
+                           <div class="wallet-box p-4 d-xl-flex justify-content-xl-between">
+                            <img class="d-block mx-auto mx-xl-0" src="../assets/images/bit.svg" alt="">
+                            <div class="d-xl-block d-flex justify-content-center my-xl-0 my-3">
+                           <span class="fst-italic">Bitcoin<p class="fw-bold fst-normal fs-4">1 BTC</p></span> </div>
+                           <img class="d-block mx-auto mx-xl-0" src="../assets/images/Arrow-rpt.svg" alt="">
+                           <p class="text-center fw-bold orange fs-4 mt-3">$20,000</p>
+                           <img class="d-block mx-auto mx-xl-0" src="../assets/images/Arrow-rpt.svg" alt="">
+                           <p class="text-center fw-bold orange fs-4 mt-3">N12,020,000</p>
+
+                           </div>
+                        </div>
+                    <div class="col-12 my-5">
+                           <div class="wallet-box p-4 d-xl-flex justify-content-xl-between">
+                            <img class="d-block mx-auto mx-xl-0" src="../assets/images/eth.svg" alt="">
+                            <div class="d-xl-block d-flex justify-content-center my-xl-0 my-3">
+                           <span class="fst-italic">Etherum<p class="fw-bold fst-normal fs-4">0 ETH</p></span> </div>
+                           <img class="d-block mx-auto mx-xl-0" src="../assets/images/Arrow-rpt.svg" alt="">
+                           <p class="text-center fw-bold orange fs-4 mt-3">$20,000</p>
+                           <img class="d-block mx-auto mx-xl-0" src="../assets/images/Arrow-rpt.svg" alt="">
+                           <p class="text-center fw-bold orange fs-4 mt-3">N12,020,000</p>
+
+                           </div>
+                        </div>
+                        <div class="col-12 my-md-0 my-5">                       
+                           <div class="wallet-box p-4 d-xl-flex justify-content-xl-between">
+                            <img class="d-block mx-auto mx-xl-0" src="../assets/images/bit.svg" alt="">
+                            <div class="d-xl-block d-flex justify-content-center my-xl-0 my-3">
+                           <span class="fst-italic">Bitcoin<p class="fw-bold fst-normal fs-4">1 BTC</p></span> </div>
+                           <img class="d-block mx-auto mx-xl-0" src="../assets/images/Arrow-rpt.svg" alt="">
+                           <p class="text-center fw-bold orange fs-4 mt-3">$20,000</p>
+                           <img class="d-block mx-auto mx-xl-0" src="../assets/images/Arrow-rpt.svg" alt="">
+                           <p class="text-center fw-bold orange fs-4 mt-3">N12,020,000</p>
+
+                           </div>
+                        </div>
+                    <div class="col-12 my-5">
+                           <div class="wallet-box p-4 d-xl-flex justify-content-xl-between">
+                            <img class="d-block mx-auto mx-xl-0" src="../assets/images/eth.svg" alt="">
+                            <div class="d-xl-block d-flex justify-content-center my-xl-0 my-3">
+                           <span class="fst-italic">Etherum<p class="fw-bold fst-normal fs-4">0 ETH</p></span> </div>
+                           <img class="d-block mx-auto mx-xl-0" src="../assets/images/Arrow-rpt.svg" alt="">
+                           <p class="text-center fw-bold orange fs-4 mt-3">$20,000</p>
+                           <img class="d-block mx-auto mx-xl-0" src="../assets/images/Arrow-rpt.svg" alt="">
+                           <p class="text-center fw-bold orange fs-4 mt-3">N12,020,000</p>
+
+                           </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+               </div>
+              
+
+
+            </div>       
+             
+        </div>            
+
+
+
+
+    </div>
+    <script>
+        var closebtns = document.getElementsByClassName("close");
+        var i;
+        
+        for (i = 0; i < closebtns.length; i++) {
+          closebtns[i].addEventListener("click", function() {
+            this.parentElement.style.display = 'none';
+          });
+        }
+        </script>
+     <!-- jquery -->
+     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+     <!-- popper js -->
+     <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+     <!-- bootstrap 5.2.0 -->
+     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <!-- main js -->
+     <script src="../assets/js/main.js"></script>
+    </body>
+    </html>
