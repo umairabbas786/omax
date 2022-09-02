@@ -64,92 +64,57 @@
             </header>
             <div class='dashboard-content'>
                 <div class='container'>
-                    <h1 class="orange">Trade History</h1>
-                    <div class="d-flex justify-content-between">
-                        <p class="mt-2">View your trades and transactions</p>
-                        <a class="log btn btn-view2 btn-lg px-4">Sort by
-                            <i class="fa-solid fa-sort mx-3"></i></a>
+                    <div class="row my-3">
+                        <div class="col-md-8 order-last order-md-first d-none d-md-block">
+                            <div class="dashboard-nav-item d-flex">
+                                <img src="../assets/images/profile.png" alt="profile picture" style="width: 150px">
+                                <h3 class="profile-name mx-4">Hi Ajibola! <br><span class="view-profile">Welcome to your
+                                        dashboard</span></h3>&nbsp;&nbsp;
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12 order-first order-md-last mb-md-0 mb-3">
+                            <div class="border balance-box py-2">
+                                <h4 style="color: white;" class="text-center my-3">Available Balance</h4>
+                                <h1 style="color: white;" class="text-center">N 200,000.00</h1>
+                                <h4 style="color: #DA6200;" class="text-center">Naira</h4>
+                            </div>
+                        </div>
                     </div>
                     <hr class="line-breaker">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="d-lg-flex d-none">
-                                <a href="trade-history.html" class="log btn btn-view2 btn-lg px-4">All trades</a>
-                                <img class="d-none d-md-block mx-3" src="../assets/images/line.png" alt="">
-                                <a href="trade-history-buy.html" class="log btn btn-view2 btn-lg px-4">Buy trades</a>
-                                    <img class="d-none d-md-block mx-3" src="../assets/images/line.png" alt="">
-                                    <a href="#" class="log btn btn-view btn-lg mb px-4">Sell Trades</a>
-
-                            </div>
-                            <div class="d-lg-none d-flex">
-                                <a href="trade-history.html" class="log btn btn-view2 btn-sm">All trades</a>
-                                <img class="d-none d-md-block mx-3" src="../assets/images/line.png" alt="">
-                                <a href="trade-history-buy.html" class="log btn btn-view2 btn-sm mx-1">Buy Trades</a>
-                                    <img class="d-none d-md-block mx-3" src="../assets/images/line.png" alt="">
-                                    <a href="#" class="log btn btn-view btn-sm mx-1">Sell trades</a>
-
-                            </div>
-                            
-                        <div class="col-md-4">
+                    <div class="row p-3">
+                        <div class="col-md-3 p-5 news-box">
+                            <h3 class="green text-center fw-bold">Verification</h3>
+                            <hr class="line-breaker ">
+                        </div>
+                        <div class="col-12">
                             
                         </div>
-
+                        
                     </div>
-                    <hr class="line-breaker my-3">
-                   <div class="table">
-                    <table class="table">
-                        <thead>
-                          <tr>
-                            <th scope="col">Trade</th>
-                            <th scope="col">Amount</th>
-                            <th scope="col">Status</th>
-                            <th scope="col">Date</th>
-                            <th scope="col"></th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Airtime recharge ( 09012345678 )</td>
-                            <td>N2,000</td>
-                            <td>Delivered</td>
-                            <td>July 16</td>
-                            <td><a href="news1.html" class="log btn btn-view btn-md">View</a></td>                          </tr>
-                            </td>
 
-                          </tr>
-                         
-                          
-                        </tbody>
-                      </table>
-                   </div> 
-
-                   
-                   
-                
-                  
-                   
-                   
-                    
-                  
-                  
-                  
                 </div>
-            </div>
-        </div>
+              
+
+
+            </div>       
+             
+        </div>            
+
+
+
+
     </div>
-                
-
-
-
-                    
-
-
-
-
-
-
-
-                    <!-- jquery -->
+    <script>
+        var closebtns = document.getElementsByClassName("close");
+        var i;
+        
+        for (i = 0; i < closebtns.length; i++) {
+          closebtns[i].addEventListener("click", function() {
+            this.parentElement.style.display = 'none';
+          });
+        }
+        </script>
+     <!-- jquery -->
      <script src="../node_modules/jquery/dist/jquery.min.js"></script>
      <!-- popper js -->
      <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>

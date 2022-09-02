@@ -566,7 +566,8 @@ hr.line-breaker{
     text-align: left;
 }
 .form-control{
-    border: 2px solid #629509 !important;
+    border: 3px solid #629509 
+    
 }
 .input-group-text{
     color: #DA6200;
@@ -807,7 +808,7 @@ div.btn-container i{
 
 label {
     font-size: 13px;
-    color: #424242;
+    color: #446709;
     font-weight: 500;
 }
 
@@ -819,10 +820,22 @@ label {
 
 .btn-color-mode-switch > label.btn-color-mode-switch-inner{
     margin: 0px;
-    width: 140px;
+    width: 180px;
     height: 30px;
     background: #629509;
-    border-radius: 26px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+    /*box-shadow: 0px 0px 8px 0px rgba(17, 17, 17, 0.34) inset;*/
+    display: block;
+}
+.btn-color-mode-switch2 > label.btn-color-mode-switch-inner2{
+    margin: 0px;
+    width: 180px;
+    height: 30px;
+    background: white;
+    border-radius: 8px;
     overflow: hidden;
     position: relative;
     transition: all 0.3s ease;
@@ -842,10 +855,10 @@ label {
 
 .btn-color-mode-switch > label.btn-color-mode-switch-inner:after{
     content: attr(data-off);
-    width: 70px;
+    width: 100px;
     height: 25px;
     background: #fff;
-    border-radius: 26px;
+    border-radius: 8px;
     position: absolute;
     left: 2px;
     top: 2px;
@@ -875,7 +888,7 @@ label {
 
 .btn-color-mode-switch input[type="checkbox"]:checked + label.btn-color-mode-switch-inner{
     background: #629509;
-    color: black;
+    color: #446709;
 }
 
 .btn-color-mode-switch input[type="checkbox"]:checked + label.btn-color-mode-switch-inner:after{
@@ -910,8 +923,10 @@ label {
 .form-select {
     border:0px;
 outline:0px;
-border: 2px solid #629509;
+border: 3px solid #629509;
 border-radius: 15px;
+background-color: #F8F8F8;
+
 }
 
 .asd{
@@ -1115,4 +1130,29 @@ border-radius: 0px;
 .u-n{
     border-top: 3px solid black;
     opacity: 1;
+}
+.wallet-box{
+    border: 3px solid #629509;
+    border-radius: 30px;
+}
+.wal1{
+    border-radius: 15px;
+    background-color: #F8F8F8;
+}
+.off-o{
+    border: 2px solid #629509;
+border-radius: 15px;
+background-color: #629509;
+width: 160px;}
+.data-btn{
+    background-color: white;
+    border-radius: 15px;
+}
+.data-a:hover{
+    text-decoration: none;
+}
+.ad-select{
+    border: none;
+    border-bottom: 3px solid black;
+    border-radius: 0%;
 }

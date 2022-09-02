@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omax</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon/favicon.png">
+    <!-- bootstrap 5.2.0 -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/acc2c02c7c.js" crossorigin="anonymous"></script>
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <!--swiper slider-->
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+            <header>
+                <a href="#" class="menu-toggle">
+                    <i class="fa-solid fa-xmark fa-2x"></i>
+                </a>
+                <a href="#" class="brand-logo text-center">
+                    <img src="../assets/logo/Omax.png" alt="logo" width="70%" height="70%">
+                    <small class="d-none d-md-block">Trading without borders ...</small>
+                </a>
+            </header>
+            <nav class="dashboard-nav-list text-center py-5">
+                <a href="view-profile.html" class="dashboard-nav-item d-flex" style="justify-content: space-around;">
+                    <img src="../assets/images/profile.png" alt="profile picture" class="pr-4 profile-pic">
+                    <h3 class="profile-name">Ajibola <br><span class="view-profile">view profile</span></h3>&nbsp;&nbsp;
+                </a>
+                <div class="nav-item-divider"></div>
+                <a href="index.html" class="dashboard-nav-item active"><i class="fa-solid fa-house-chimney icon fa-2x"></i> Home
+                </a>
+                <a href="#" class="dashboard-nav-item"><i class="fa-solid fa-wallet icon fa-2x"></i> Wallet</a>
+                 <a href="p2p.html" class="dashboard-nav-item"><i class="fa-solid icon fa-arrows-rotate"></i> Peer to peer (P2P)
+                </a>
+                <a href="p2p.html" class="dashboard-nav-item"><i class="fa-solid fa-database"></i>Airtime & Data
+                </a>
+                <a href="p2p.html" class="dashboard-nav-item"><i class="fa-solid fa-money-bill"></i> Utility & Bills
+                </a>
+                <a href="#" class="dashboard-nav-item"><i class="fa-solid icon fa-clock-rotate-left"></i> Trade history
+                </a>
+                <a href="notification.html" class="dashboard-nav-item mt-4"><i class="fa-solid icon fa-bell"></i>
+                    Notifications </a>
+                <a href="preferences-settings.html" class="dashboard-nav-item"><i class="fa-solid icon fa-gear"></i> Settings </a>
+                <a href="#" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
+            </nav>
+        </div>
+        <div class='dashboard-app'>
+            <header class='dashboard-toolbar px-5 d-sm-flex justify-sm-content-center align-sm-content-center'>
+                <a href="#" class="menu-toggle text-start"><i class="fa-solid fa-bars-staggered fa-2x"></i></a>
+                <div class="d-md-none d-block text-end ms-auto">
+                    <span class="profile-name mx-2" style="font-size:larger">Ajibola</span>
+                    <a href=""><img src="../assets/images/profile.png" alt="profile picture" width="22%"></a>
+                </div>
+            </header>
+            <div class='dashboard-content'>
+                <div class='container'>
+                    <div class="row">
+                        <h3 class="mb-5 fw-bold" style="color: #DA6200;">Wallet</h3>                    
+                            <div class="col-lg-8 col-12 mb-md-0 mb-3">
+                                <div class="border balance-box  p-4">
+                                    <h4 style="color: white;" class="text-center my-3">Available Balance</h4>
+                                    <h1 style="color:  white;" class="text-center">N 200,000.00</h1>
+                                    <h4 style="color: white;" class="text-center mb-4">Naira</h4>
+                                    <div class="btn-wallet d-none d-lg-flex justify-content-around">
+                                      <a href="withdraw.html" class="log btn btn-view1 btn-lg ">Withdraw  ></a>
+                                      <a href="deposit.html" class="log btn btn-view btn-lg ">Deposit  ></a>
+                                      <a href="transfer.html" class="log btn btn-view1 btn-lg ">Transfer  ></a>
+    
+                                    </div>
+                                    <div class="btn-wallet d-lg-none d-flex justify-content-around">
+                                        <a href="withdraw.html" class="log btn btn-view1 btn-sm ">Withdraw  ></a>
+                                    <a href="deposit.html" class="log btn btn-view btn-sm ">Deposit  ></a>
+                                    <a href="transfer.html" class="log btn btn-view1 btn-sm ">Transfer  ></a>
+      
+                                      </div>
+                                </div>
+                            </div>
+                            
+    
+                            </div>
+                        <hr class="my-5 line-breaker">
+                        
+                <div class="row">
+                    <div class="news-box px-5 pt-5">                                   
+                            <h3 class="card-title my-3 fw-bold text-center">Deposit</h3><hr class="line-breaker">
+                           <p class="orange my-3 fw-bold text-center">Make payment to the account details below and upload a photo of transaction reciept.</p>
+                           <h5 class="text-center">123345667889 <a href="#"><i class="fa-regular fa-copy fa-lg green mx-2"></i></a></h5>
+                           <p class="text-center fw-bold">Omax Technology<br>Access Bank</p>
+                           <div class="row">
+                            <div class="col-md-6 offset-md-3">
+                                
+                                  <div class="form-floating mb-2">
+                                    <input type="number" id="floatingInput" class="form-control wal1 my-5" aria-label="Default select example">
+                                      
+                                    <label class="fw-bold" style="font-size:22px; color: black;" for="floatingInput">Amount: Enter amount</label>
+                                  </div>
+                                  <div class="form-floating mb-2">
+                                    <input type="number" id="floatingInput" class="form-control wal1 my-5" aria-label="Default select example">
+                                      
+                                    <label class="fw-bold" style="font-size:20px; color: black;" for="floatingInput">Narration</label>
+                                  </div>
+                                  <div class="d-flex justify-content-center my-md-3">                                 
+                                    <button class="log btn btn-view btn-md px-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-upload mx-2"></i>
+                                       Upload proof of Payment JPEG/PNG</button>
+                                 </div>
+                                 <div class="d-flex justify-content-center my-md-5">
+                                 <button class="log btn btn-view btn-lg px-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Deposit</button></div>
+                                 
+                            </div>
+                           
+  
+ 
+
+                            </div>
+                           </div>
+                                
+                                
+                            
+                           
+                            
+                    </div>
+                 
+                </div>
+               </div>
+              
+
+
+            </div>       
+             
+        </div>            
+
+
+
+
+    </div>
+    <script>
+        var closebtns = document.getElementsByClassName("close");
+        var i;
+        
+        for (i = 0; i < closebtns.length; i++) {
+          closebtns[i].addEventListener("click", function() {
+            this.parentElement.style.display = 'none';
+          });
+        }
+        </script>
+     <!-- jquery -->
+     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+     <!-- popper js -->
+     <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+     <!-- bootstrap 5.2.0 -->
+     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <!-- main js -->
+     <script src="../assets/js/main.js"></script>
+    </body>
+    </html>
