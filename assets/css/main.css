@@ -1113,10 +1113,20 @@ border-radius: 0px;
     border: 2px solid #629509;
     border-radius: 30px;
   }
+  .iop2{
+    background-color: #629509;
+    border: 2px solid #629509;
+    border-radius: 20px;
+  }
   .copy-refer{
     height: 100px;    }
+    .copy-refer2{
+        height: 60px;    }
 .ref-user{
     border-radius: 30px;
+}
+.ref-user2{
+    border-radius: 20px;
 }
 .country-su{
     border-radius: 10px;
@@ -1147,6 +1157,15 @@ width: 160px;}
 .data-btn{
     background-color: white;
     border-radius: 15px;
+    border: 1px solid #629509;
+}
+.off-o2{
+    width:152px;
+}
+.off-o3{
+    width:147px;
+    background-color: white;
+
 }
 .data-a:hover{
     text-decoration: none;

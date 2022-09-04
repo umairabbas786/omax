@@ -101,17 +101,19 @@
                             <h3 class="card-title my-3 fw-bold">Exchange</h3><hr class="line-breaker"></div>
                            <p class="orange my-3 fw-bold">You can BUY / SELL/SEND/ RECIVE your crypto assets here.</p>
                            <div class="d-flex justify-content-between me-md-5 mb-md-5 mb-3">
-                            <div class="off-o off-o2 d-flex my-3">
-                                <a class="data-a" href="#"><h6 class="text-white mx-4 me- mt-2">Buy</h6></a>
-                                <div class="data-btn">
-                                    <a class="data-a" href="wallet-sell.html"><h6 class="green mx-4 mt-2">Sell</h6></a>
-
-                                </div>
-                            </div>
-                                        <img class="d-none d-md-block" src="../assets/images/line.png" alt=""> 
+                           
     
                                         <div class="off-o off-o3 d-flex my-3">
-                                        <a class="data-a" href="wallet-send.html"><h6 class="green mx-3 mt-2 ">Send</h6></a>
+                                        <a class="data-a" href="wallet-buy.html"><h6 class="green mx-4 mt-2 ">Buy</h6></a>
+                                            <div class="data-btn">
+                                                <a class="data-a" href="wallet-sell.html"><h6 class="green mx-3 px-1 mt-2">Sell</h6></a>
+            
+                                            </div>
+                                        </div>
+                                        <img class="d-none d-md-block" src="../assets/images/line.png" alt=""> 
+
+                                        <div class="off-o off-o2 d-flex my-3">
+                                            <a class="data-a" href="#"><h6 class="text-white mx-3 me- mt-2">Send</h6></a>
                                             <div class="data-btn">
                                                 <a class="data-a" href="wallet-recieve.html"><h6 class="green mx-2 mt-2">Recieve</h6></a>
             
@@ -121,43 +123,27 @@
                         </div>
                            <div class="row">
                             <div class="col-md-5">
-                                <div class="form-floating mb-2">
-                                    <select id="floatingInput" class="form-select " >
-                                        <option selected>-Select-</option>
-                                        <option value="1">Bitcoin</option>
-                                        <option value="2">Etherum</option>
-                                        <option value="3">Three</option>
-                                      </select>
-                                    <label class="mb-5 fw-bold" style="font-size:20px; color: black;" for="floatingInput">Coin/Token</label>
-                                  </div>
-                                  <div class="form-floating mb-2">
-                                    <select id="floatingInput" class="form-select my-5" aria-label="Default select example">
-                                        <option selected>-Select-</option>
-                                        <option value="1">Bitcoin</option>
-                                        <option value="2">Etherum</option>
-                                        <option value="3">Three</option>
-                                      </select>
-                                    <label class="fw-bold" style="font-size:20px; color: black;" for="floatingInput">Prefered supported chain</label>
-                                  </div>
-                            </div>
-                            <div class="col-md-5 offset-md-2">
-                                <div class="form-floating mb-2">
+                               <div class="form-floating mb-2">
                                   <input class="form-control wal1" type="text" >
                                     <label class="mb-5 fw-bold" style="font-size:20px; color: black;" for="floatingInput">Wallet Address</label>
                                   </div>
                                   <div class="form-floating mb-2">
                                     <input type="number" id="floatingInput" class="form-control wal1 my-5" aria-label="Default select example">
                                       
+                                    <label class="fw-bold" style="font-size:20px; color: black;" for="floatingInput">Note (Optional)</label>
+                                  </div>
+                                </div>
+                            <div class="col-md-5 offset-md-2">
+                                
+                                  <div class="form-floating">
+                                    <input type="number" id="floatingInput" class="form-control wal1" aria-label="Default select example">
+                                      
                                     <label class="fw-bold" style="font-size:20px; color: black;" for="floatingInput">Amount</label>
                                   </div>
                                   <div class="d-flex justify-content-lg-end justify-content-center my-md-5">                                 
-                                     <button class="log btn btn-view btn-lg px-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                        Proceed to Buy  ></button>
+                                     <button class="log btn btn-view btn-lg px-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                                        Proceed to Send  ></button>
                                   </div>
-                                  <!-- Button trigger modal -->
-
-  
-  <!-- Modal -->
   
 
                             </div>
@@ -229,16 +215,7 @@
 
 
     </div>
-    <script>
-        var closebtns = document.getElementsByClassName("close");
-        var i;
-        
-        for (i = 0; i < closebtns.length; i++) {
-          closebtns[i].addEventListener("click", function() {
-            this.parentElement.style.display = 'none';
-          });
-        }
-        </script>
+  
      <!-- jquery -->
      <script src="../node_modules/jquery/dist/jquery.min.js"></script>
      <!-- popper js -->
