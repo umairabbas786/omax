@@ -792,7 +792,9 @@ input[type=number] {
 .orange{
     color: #DA6200;
 }
-
+.color-orange{
+    color: #DA6200 !important;
+}
 
 div.btn-container{
     display: table-cell;
