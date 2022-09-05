@@ -1194,3 +1194,10 @@ width: 160px;}
 .checkbox-round:checked {
     background-color: #629509;
 }
+/* CHAT */
+.card-chat{
+    border-right:  3px solid #629509
+}
+.form-control1{
+    border: none;
+}

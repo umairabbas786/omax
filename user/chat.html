@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omax</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon/favicon.png">
+    <!-- bootstrap 5.2.0 -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/acc2c02c7c.js" crossorigin="anonymous"></script>
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <!--swiper slider-->
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+            <header>
+                <a href="#" class="menu-toggle">
+                    <i class="fa-solid fa-xmark fa-2x"></i>
+                </a>
+                <a href="#" class="brand-logo text-center">
+                    <img src="../assets/logo/Omax.png" alt="logo" width="70%" height="70%">
+                    <small class="d-none d-md-block">Trading without borders ...</small>
+                </a>
+            </header>
+            <nav class="dashboard-nav-list text-center py-5">
+                <a href="view-profile.html" class="dashboard-nav-item d-flex" style="justify-content: space-around;">
+                    <img src="../assets/images/profile.png" alt="profile picture" class="pr-4 profile-pic">
+                    <h3 class="profile-name">Ajibola <br><span class="view-profile">view profile</span></h3>&nbsp;&nbsp;
+                </a>
+                <div class="nav-item-divider"></div>
+                <a href="index.html" class="dashboard-nav-item active"><i class="fa-solid fa-house-chimney icon fa-2x"></i> Home
+                </a>
+                <a href="wallet.html" class="dashboard-nav-item"><i class="fa-solid fa-wallet icon fa-2x"></i> Wallet</a>
+                 <a href="p2p.html" class="dashboard-nav-item"><i class="fa-solid icon fa-arrows-rotate"></i> Peer to peer (P2P)
+                </a>
+                <a href="airtime.html" class="dashboard-nav-item"><i class="fa-solid fa-database"></i>Airtime & Data
+                </a>
+                <a href="utility-bills.html" class="dashboard-nav-item"><i class="fa-solid fa-money-bill"></i> Utility & Bills
+                </a>
+                <a href="trade-history.html" class="dashboard-nav-item"><i class="fa-solid icon fa-clock-rotate-left"></i> Trade history
+                </a>
+                <a href="notification.html" class="dashboard-nav-item mt-4"><i class="fa-solid icon fa-bell"></i>
+                    Notifications </a>
+                <a href="preferences-settings.html" class="dashboard-nav-item"><i class="fa-solid icon fa-gear"></i> Settings </a>
+                <a href="#" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
+            </nav>
+        </div>
+        <div class='dashboard-app'>
+            <header class='dashboard-toolbar px-5 d-sm-flex justify-sm-content-center align-sm-content-center'>
+                <a href="#" class="menu-toggle text-start"><i class="fa-solid fa-bars-staggered fa-2x"></i></a>
+                <div class="d-md-none d-block text-end ms-auto">
+                    <span class="profile-name mx-2" style="font-size:larger">Ajibola</span>
+                    <a href=""><img src="../assets/images/profile.png" alt="profile picture" width="22%"></a>
+                </div>
+            </header>
+            <div class='dashboard-content'>
+                <div class='container'>
+                    <h1 class="orange">Message</h1>
+                    <h4>Check your messages here</h4>
+                    <hr class="line-breaker">
+                    <div class="row">
+                    <div class="col-md-3 "> 
+                        <div class="d-xl-flex justify-content-lg-between ">
+                            <h2 class="green">Chats</h2>
+                            <a class="log btn btn-view2 btn-lg px-4">Sort by
+                                <i class="fa-solid fa-sort mx-3"></i></a>
+                        </div>                   
+                        
+                    </div>
+                    <div class="col-md-3 offset-md-2">
+                        <h2>Michael <span class="green fs-5">Vendor</span></h2>
+                    </div>
+                </div>
+                    <hr class="line-breaker">
+                    <section>
+                        <div class="container py-5">
+                      
+                          <div class="row">
+                      
+                            <div class="col-md-6 col-lg-5 col-xl-4 mb-4 mb-md-0">
+                      
+                              <div class="card-chat">
+                                <div class="card-body">
+                      
+                                  <ul class="list-unstyled mb-0">
+                                    <li class="p-2 border-bottom">
+                                      <a href="#!" class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row">
+                                          <img src="../assets/images/chat-img.png" alt="avatar"
+                                            class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                                          <div class="pt-1">
+                                            <p class="fw-bold mb-0 text-black">Michael</p>
+                                            <p class="small text-muted">Hello, Are you there?</p>
+                                          </div>
+                                        </div>
+                                        <div class="pt-1">
+                                          <p class="small text-muted mb-1">Just now</p>
+                                          <span class="badge bg-danger float-end">1</span>
+                                        </div>
+                                      </a>
+                                    </li>
+                                    <li class="p-2 border-bottom">
+                                      <a href="#!" class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row">
+                                            <img src="../assets/images/chat-img.png" alt="avatar"
+                                            class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                                          <div class="pt-1">
+                                            <p class="fw-bold mb-0 text-black">Sandra</p>
+                                            <p class="small text-muted">Is it vacant for this weekend?</p>
+                                          </div>
+                                        </div>
+                                        <div class="pt-1">
+                                          <p class="small text-muted mb-1">5 mins ago</p>
+                                        </div>
+                                      </a>
+                                    </li>
+                                    <li class="p-2 border-bottom">
+                                      <a href="#!" class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row">
+                                            <img src="../assets/images/chat-img.png" alt="avatar"
+                                            class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                                          <div class="pt-1">
+                                            <p class="fw-bold mb-0 text-black">Michael</p>
+                                            <p class="small text-muted">Is it vacant for this weekend?</p>
+                                          </div>
+                                        </div>
+                                        <div class="pt-1">
+                                          <p class="small text-muted mb-1">Yesterday</p>
+                                        </div>
+                                      </a>
+                                    </li>
+                                    <li class="p-2 border-bottom">
+                                      <a href="#!" class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row">
+                                            <img src="../assets/images/chat-img.png" alt="avatar"
+                                            class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                                          <div class="pt-1">
+                                            <p class="fw-bold mb-0 text-black">Michael</p>
+                                            <p class="small text-muted">Is it vacant for this weekend?</p>
+                                          </div>
+                                        </div>
+                                        <div class="pt-1">
+                                          <p class="small text-muted mb-1">Yesterday</p>
+                                        </div>
+                                      </a>
+                                    </li>
+                                    <li class="p-2 border-bottom">
+                                      <a href="#!" class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row">
+                                            <img src="../assets/images/chat-img.png" alt="avatar"
+                                            class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                                          <div class="pt-1">
+                                            <p class="fw-bold mb-0 text-black">Michael</p>
+                                            <p class="small text-muted">Is it vacant for this weekend?</p>
+                                          </div>
+                                        </div>
+                                        <div class="pt-1">
+                                          <p class="small text-muted mb-1">Yesterday</p>
+                                        </div>
+                                      </a>
+                                    </li>
+                                    <li class="p-2 border-bottom">
+                                      <a href="#!" class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row">
+                                            <img src="../assets/images/chat-img.png" alt="avatar"
+                                            class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                                          <div class="pt-1">
+                                            <p class="fw-bold mb-0 text-black">Michael</p>
+                                            <p class="small text-muted">Is it vacant for this weekend?</p>
+                                          </div>
+                                        </div>
+                                        <div class="pt-1">
+                                          <p class="small text-muted mb-1">Yesterday</p>
+                                        </div>
+                                      </a>
+                                    </li>
+                                    <li class="p-2">
+                                      <a href="#!" class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row">
+                                            <img src="../assets/images/chat-img.png" alt="avatar"
+                                            class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
+                                          <div class="pt-1">
+                                            <p class="fw-bold mb-0 text-black">Michael</p>
+                                            <p class="small text-muted">Is it vacant for this weekend?</p>
+                                          </div>
+                                        </div>
+                                        <div class="pt-1">
+                                          <p class="small text-muted mb-1">5 mins ago</p>
+                                          <span class="text-muted float-end"><i class="fas fa-check" aria-hidden="true"></i></span>
+                                        </div>
+                                      </a>
+                                    </li>
+                                  </ul>
+                      
+                                </div>
+                              </div>
+                      
+                            </div>
+                      
+                            <div class="col-md-6 col-lg-7 col-xl-8">
+                      
+                              <ul class="list-unstyled">
+                                <li class="d-flex justify-content-between mb-4">
+                                    <img src="../assets/images/chat-img.png" alt="avatar"
+                                    class="rounded-circle d-flex align-self-start me-3 shadow-1-strong" width="60">
+                                  <div class="card">
+                                    <div class="card-header d-flex justify-content-between p-3">
+                                        <p class="fw-bold mb-0 text-black">Michael</p>
+                                        <p class="text-muted small mb-0"><i class="far fa-clock"></i> 12 mins ago</p>
+                                    </div>
+                                    <div class="card-body">
+                                      <p class="mb-0">
+                                        This just a smaple text - serving as a placeholder for the real text. Don't worry the real text
+                                        will be up soon!This just a smaple text - 
+                                      </p>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="d-flex justify-content-between mb-4">
+                                  <div class="card w-100">
+                                    <div class="card-header d-flex justify-content-between p-3">
+                                        <p class="fw-bold mb-0 text-black">Sandra</p>
+                                        <p class="text-muted small mb-0"><i class="far fa-clock"></i> 13 mins ago</p>
+                                    </div>
+                                    <div class="card-body">
+                                      <p class="mb-0">
+                                        This just a smaple text - serving as a placeholder for the real text. Don't worry the real text
+                                        will be up soon!This just a smaple text -
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <img src="../assets/images/chat-img.png" alt="avatar"
+                                  class="rounded-circle d-flex align-self-start ms-3 shadow-1-strong" width="60">
+                                </li>
+                                <li class="d-flex justify-content-between mb-4">
+                                    <img src="../assets/images/chat-img.png" alt="avatar"
+                                    class="rounded-circle d-flex align-self-start me-3 shadow-1-strong" width="60">
+                                  <div class="card">
+                                    <div class="card-header d-flex justify-content-between p-3">
+                                        <p class="fw-bold mb-0 text-black">Michael</p>
+                                        <p class="text-muted small mb-0"><i class="far fa-clock"></i> 10 mins ago</p>
+                                    </div>
+                                    <div class="card-body">
+                                      <p class="mb-0">
+                                        This just a smaple text - serving as a placeholder for the real text. Don't worry the real text
+                                        will be up soon!This just a smaple text -
+                                      </p>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="bg-white mb-3">
+                                  <div class="form-outline d-flex">
+                                    <button type="button" class="btn btn-view1 mx-2"><i class="fa-solid fa-camera fa-2x"></i></i></button>
+                                    <textarea class="form-control mx-2" id="textAreaExample2" rows="2"></textarea>
+                                    <button type="button" class="btn btn-view1 float-end"><i class="fa-solid fa-paper-plane fa-2x"></i></button>
+
+                                  </div>
+                                </li>
+                              </ul>
+                      
+                            </div>
+                      
+                          </div>
+                      
+                        </div>
+                      </section>
+                </div>
+              
+
+
+            </div>       
+             
+        </div>            
+
+
+
+
+    </div>
+   
+     <!-- jquery -->
+     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+     <!-- popper js -->
+     <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+     <!-- bootstrap 5.2.0 -->
+     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <!-- main js -->
+     <script src="../assets/js/main.js"></script>
+    </body>
+    </html>
