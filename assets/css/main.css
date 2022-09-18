@@ -1,3 +1,12 @@
+.img-fluid{
+    max-width: 100%;
+    min-height: 100%!important;
+    display: block;
+}
+.news-img-card{
+    height: 70%!important;
+}
+
 @font-face {
     font-family: Ginger;
     src: local("F37GingerRegular"),
@@ -1107,9 +1116,6 @@ border-radius: 0px;
     border-radius: 7px;
 
 }
-.news-image2{
-    width: 90%;
-  }
   .iop{
     background-color: #629509;
     border: 2px solid #629509;
