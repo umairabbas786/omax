@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omax</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon/favicon.png">
+    <!-- bootstrap 5.2.0 -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/acc2c02c7c.js" crossorigin="anonymous"></script>
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <!--swiper slider-->
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+
+</head>
+
+<body class="fw-bold">
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+            <header>
+                <a href="#" class="menu-toggle">
+                    <i class="fa-solid fa-xmark fa-2x"></i>
+                </a>
+                <a href="#" class="brand-logo text-center">
+                    <img class="ms-3" src="../assets/logo/Omax.png" alt="logo" width="40%" height="40%"><br>
+                    <img src="../assets/logo/Academy@2x.png" alt="logo" width="30%" height="40%">                   
+                </a>
+            </header>
+            <nav class="dashboard-nav-list text-center py-5 py-sm-3">
+                <hr class="line-breaker d-block d-md-none">
+
+                <div class="d-flex justify-content-around">
+                    <input class="d-sm-block d-md-none form-control wal1 w-25" type="search" placeholder="Search" aria-label="Search">
+                    <button style="border-radius: 75%;" class="btn btn-view4 d-sm-block d-md-none" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>            
+                       <button style="border-radius: 75%;" class="btn btn-view4 mx-3 mx-sm-0 mx-md-1 mx-lg-0 d-sm-block d-md-none"><i class="fa-regular fa-bell"></i></button>
+                       <button style="border-radius: 75%;" class="btn btn-view4 d-sm-block d-md-none" ><i class="fa-solid fa-cart-shopping"></i> </button>
+                    </div>                       <hr class="line-breaker d-block d-md-none">
+
+
+   
+                <a href="view-profile.html" class="dashboard-nav-item d-flex" style="justify-content: space-around;">
+                    <img src="../assets/images/profile.png" alt="profile picture" class="pr-4 profile-pic">
+                    <h3 class="profile-name">Ajibola <br><span class="view-profile">view profile</span></h3>&nbsp;&nbsp;
+                </a>
+                <div class="nav-item-divider"></div>
+                <a href="index.html" class="dashboard-nav-item active"><i class="fa-solid fa-house-chimney icon fa-2x"></i> Home
+                </a>
+                <a href="shop.html" class="dashboard-nav-item"><i class="fa-solid fa-bag-shopping"></i> Shop</a>
+                <a href="learning.html" class="dashboard-nav-item"><i class="fa-solid fa-book"></i>My Learning
+                </a>
+                <a href="discussion.html" class="dashboard-nav-item"><i class="fa-solid fa-message"></i>Discussions
+                </a>
+                <a href="commissions.html" class="dashboard-nav-item"><i class="fa-solid fa-dollar-sign"></i> Commissions
+                </a>
+                <a href="help.html" class="dashboard-nav-item"><i class="fa-solid fa-circle-question"></i> Help
+                </a>
+                <a href="#" class="dashboard-nav-item "><i class="fa-brands fa-telegram fa-2x"></i> Telegram
+                </a>
+                <a href="notification.html" class="dashboard-nav-item mt-4"><i class="fa-solid icon fa-bell"></i>
+                    Notifications </a>
+                <a href="preferences.html" class="dashboard-nav-item"><i class="fa-solid icon fa-gear"></i> Settings </a>
+                <a href="../index.html" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i> Logout </a>
+            </nav>
+        </div>
+        <div class='dashboard-app'>
+            <header class='dashboard-toolbar px-5 py-4 d-flex justify-content-between'>
+                <a href="#" class="menu-toggle text-start"><i class="fa-solid fa-bars-staggered fa-2x me-3"></i></a>
+            
+                <form class="d-md-flex justify-content-md-between d-none">
+                    <i class="fa fa-search green fa-lg mt-4 search-icon"></i>
+                 <input class=" form-control wal1 me-2 wal3 ps-5 py-2 " type="search" placeholder="Search" aria-label="Search">
+                 <a href="search.html" style="border-radius: 75%;" class="btn btn-view4 mx-2 pt-2" type="submit"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
+                 <a href="notification.html" style="border-radius: 75%;" class="btn btn-view4 mx-2 mx-sm-0 pt-2"><i class="fa-regular fa-bell fa-lg"></i></a>
+                 <a href="cart.html" style="border-radius: 75%;" class="btn btn-view4 mx-2 pt-2" ><i class="fa-solid fa-cart-shopping fa-lg"></i> </a>
+                </form>
+                             
+
+                  
+
+                        <div class="d-xl-flex d-none me-5">
+                            <div><h5 class="orange mt-4">Ajibola</h5> <a href="view-profile.html" class="fs-6 text-black">View Profile</a></div>
+                            <a href=""><img src="../assets/images/profile.png" alt="profile picture" width="60%"></a>
+                        </div>
+                <div class="d-md-none d-block text-end ms-auto">
+                    <span class="profile-name mx-2" style="font-size:larger">Ajibola</span>
+                    <a href=""><img src="../assets/images/profile.png" alt="profile picture" width="22%"></a>
+                </div>
+            </header>
+            <div class='dashboard-content'>
+                
+                      <section>
+                        <div class="container mt-5">
+                            <h1 class="orange mt-1">Hi Ajibola !</h1>
+                            <h4>Welcome to OMAX ACADEMY.</h4>
+
+                        </div>
+                      </section>
+                    <div class="container">
+                        <div class="row my-5 px-4">
+                                <div class="col-xl-8 col-12 px-md-4 my-2 news-box py-4">
+                                    <!-- <div class="news-box p-md-5"> -->
+                                        <h2 class="green ms-4 fw-bold mb-2">Categories</h2>
+                                        <div class="d-none d-lg-flex mt-5">
+                                            <button class="btn btn-view5 fw-bold px-4 fs-5">Forex Trading</button> 
+                                            <button class="btn btn-view5 fw-bold px-4 mx-2 fs-5">Cryptocurrency</button>
+                                            <button class="btn btn-view5 fw-bold px-4 mx-2 fs-5">Exchange</button>
+                                            <button class="btn btn-view5 fw-bold px-4 mx-2 fs-5">Free</button>
+    
+                                        </div>
+                                        <div class="d-lg-none d-md-block ms-4 mt-5">
+                                            <div class="d-flex my-3">
+                                                <button class="btn btn-sm btn-view5 fw-bold me-3">Forex Trading</button> 
+                                                <button class="btn btn-sm btn-view5 fw-bold ">Exchange</button>
+
+                                            </div>
+                                            <div class="d-flex">
+                                                <button class="btn btn-sm btn-view5 fw-bold me-1">Cryptocurrency</button>
+                                                <button class="btn btn-sm btn-view5 fw-bold px-4">Free</button>
+                                            </div>
+                                         
+    
+                                        </div>
+                                       
+                                    </div>
+                                    
+                                    <!-- </div> -->
+                               
+                                <div class="col-xl-4 col-12 my-2">
+                                    <div class="news-box p-5">
+                                        <h2 class="green">Refer And Earn</h2>
+                                        <p>You can earn by reffering your friends to signup.</p>
+                                        <button class="btn btn-view btn-md">Earn Now ></button>
+                                    </div>
+                                   
+                                </div>                 
+                               
+                               
+                          
+                        </div>
+                    </div>
+                    <hr class="line-breaker">
+                            <section class="py-5">
+                                <div class="container px-5">                                
+                                  <div class="row p-5 news-box">                           
+                                    <h2 class="green">Featured</h2>                           
+                                   <div class="swiper mySwiper px-md-5 px-0">
+                                      <div class="swiper-wrapper">
+                                        <div class="swiper-slide slide1 right-border">
+                                          <div class=" col-md-12 border card-main1 py-5">
+                                            <div class="product-card-info">
+                                              <div class="product-meta small img-card-main p-2">
+                                                <img class="w-100 " src="../assets/images/slider-1.png" alt="">
+                                            </div>
+                                            <div class="card-title text-black mt-4">
+                                                <h4>Financial Analysis <span class="orange fs-6">(112)</span></h4>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <div>
+                                                    <i class="fa-solid fa-book-open mx-2"></i><span>5 Courses</span>
+                                                </div>
+                                                <div class="stars">
+                                                    <span class="green">(</span><span class="fa fa-star checked green"></span>
+                                                    <span class="fa fa-star checked green"></span>
+                                                    <span class="fa fa-star checked green"></span>
+                                                    <span class="fa fa-star checked green"></span>
+                                                    <span class="fa fa-star fa-regular green"></span>
+                                                  <span class="greeen">)</span></div>
+                                
+                                            </div>
+                                              <div class="d-flex justify-content-between mt-2">                                             
+                                                    <button class="btn btn-view">enroll  ></button>
+                                                    <h5 class="green mt-2">N25,000</h5>
+                                                                                            
+                                              </div>
+                                              
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="swiper-slide slide1 right-border">
+                                            <div class=" col-md-12 border card-main1 py-5">
+                                              <div class="product-card-info">
+                                                <div class="product-meta small img-card-main p-2">
+                                                  <img class="w-100 " src="../assets/images/slider-2.png" alt="">
+                                              </div>
+                                              <div class="card-title text-black mt-4">
+                                                  <h4>Financial Analysis <span class="orange fs-6">(112)</span></h4>
+                                              </div>
+                                              <div class="d-flex justify-content-between">
+                                                  <div>
+                                                      <i class="fa-solid fa-book-open mx-2"></i><span>5 Courses</span>
+                                                  </div>
+                                                  <div class="stars">
+                                                      <span class="green">(</span><span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star fa-regular green"></span>
+                                                    <span class="greeen">)</span></div>
+                                  
+                                              </div>
+                                                <div class="d-flex justify-content-between mt-2">                                             
+                                                      <button class="btn btn-view">enroll  ></button>
+                                                      <h5 class="green mt-2">N25,000</h5>
+                                                                                              
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide slide1 right-border">
+                                            <div class=" col-md-12 border card-main1 py-5">
+                                              <div class="product-card-info">
+                                                <div class="product-meta small img-card-main p-2">
+                                                  <img class="w-100 " src="../assets/images/slider-3.png" alt="">
+                                              </div>
+                                              <div class="card-title text-black mt-4">
+                                                  <h4>Financial Analysis <span class="orange fs-6">(112)</span></h4>
+                                              </div>
+                                              <div class="d-flex justify-content-between">
+                                                  <div>
+                                                      <i class="fa-solid fa-book-open mx-2"></i><span>5 Courses</span>
+                                                  </div>
+                                                  <div class="stars">
+                                                      <span class="green">(</span><span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star fa-regular green"></span>
+                                                    <span class="greeen">)</span></div>
+                                  
+                                              </div>
+                                                <div class="d-flex justify-content-between mt-2">                                             
+                                                      <button class="btn btn-view">enroll  ></button>
+                                                      <h5 class="green mt-2">N25,000</h5>
+                                                                                              
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide slide1 right-border">
+                                            <div class=" col-md-12 border card-main1 py-5">
+                                              <div class="product-card-info">
+                                                <div class="product-meta small img-card-main p-2">
+                                                  <img class="w-100 " src="../assets/images/slider-1.png" alt="">
+                                              </div>
+                                              <div class="card-title text-black mt-4">
+                                                  <h4>Financial Analysis <span class="orange fs-6">(112)</span></h4>
+                                              </div>
+                                              <div class="d-flex justify-content-between">
+                                                  <div>
+                                                      <i class="fa-solid fa-book-open mx-2"></i><span>5 Courses</span>
+                                                  </div>
+                                                  <div class="stars">
+                                                      <span class="green">(</span><span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star fa-regular green"></span>
+                                                    <span class="greeen">)</span></div>
+                                  
+                                              </div>
+                                                <div class="d-flex justify-content-between mt-2">                                             
+                                                      <button class="btn btn-view">enroll  ></button>
+                                                      <h5 class="green mt-2">N25,000</h5>
+                                                                                              
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide slide1 right-border">
+                                            <div class=" col-md-12 border card-main1 py-5">
+                                              <div class="product-card-info">
+                                                <div class="product-meta small img-card-main p-2">
+                                                  <img class="w-100 " src="../assets/images/slider-1.png" alt="">
+                                              </div>
+                                              <div class="card-title text-black mt-4">
+                                                  <h4>Financial Analysis <span class="orange fs-6">(112)</span></h4>
+                                              </div>
+                                              <div class="d-flex justify-content-between">
+                                                  <div>
+                                                      <i class="fa-solid fa-book-open mx-2"></i><span>5 Courses</span>
+                                                  </div>
+                                                  <div class="stars">
+                                                      <span class="green">(</span><span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star fa-regular green"></span>
+                                                    <span class="greeen">)</span></div>
+                                  
+                                              </div>
+                                                <div class="d-flex justify-content-between mt-2">                                             
+                                                      <button class="btn btn-view">enroll  ></button>
+                                                      <h5 class="green mt-2">N25,000</h5>
+                                                                                              
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="swiper-slide slide1 right-border">
+                                            <div class=" col-md-12 border card-main1 py-5">
+                                              <div class="product-card-info">
+                                                <div class="product-meta small img-card-main p-2">
+                                                  <img class="w-100 " src="../assets/images/slider-3.png" alt="">
+                                              </div>
+                                              <div class="card-title text-black mt-4">
+                                                  <h4>Financial Analysis <span class="orange fs-6">(112)</span></h4>
+                                              </div>
+                                              <div class="d-flex justify-content-between">
+                                                  <div>
+                                                      <i class="fa-solid fa-book-open mx-2"></i><span>5 Courses</span>
+                                                  </div>
+                                                  <div class="stars">
+                                                      <span class="green">(</span><span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star checked green"></span>
+                                                      <span class="fa fa-star fa-regular green"></span>
+                                                    <span class="greeen">)</span></div>
+                                  
+                                              </div>
+                                                <div class="d-flex justify-content-between mt-2">                                             
+                                                      <button class="btn btn-view">enroll  ></button>
+                                                      <h5 class="green mt-2">N25,000</h5>
+                                                                                              
+                                                </div>
+                                                
+                                              </div>
+                                            </div>
+                                          </div>
+                                      </div>
+                                      <div class="swiper-button-next"></div>
+                                      <div class="swiper-button-prev"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </section>
+                     
+                    
+
+
+
+
+
+
+
+                    </div>
+
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jquery -->
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- popper js -->
+    <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <!-- bootstrap 5.2.0 -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- main js -->
+    <script src="../assets/js/main.js"></script>
+    <!-- swiper js -->
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          centeredSlides: true,
+          roundLengths: true,
+          nextButton: '.swiper-button-next',
+          prevButton: '.swiper-button-prev',
+          loop: true,
+          breakpoints: {
+            1920: {
+              slidesPerView: 3,
+              spaceBetween: 30
+            },
+            1028: {
+              slidesPerView: 3,
+              spaceBetween: 30
+            },
+            480: {
+              slidesPerView: 1,
+              spaceBetween: 10
+            },
+            360: {
+              slidesPerView: 1,
+              spaceBetween: 10
+            }
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+    
+        });
+      </script>
+</body>
+
+</html>

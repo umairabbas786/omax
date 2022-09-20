@@ -566,12 +566,30 @@ hr.line-breaker{
     text-align: left;
 }
 .form-control{
-    border: 3px solid #629509 
+    border: 3px solid #629509;
+    border-radius: 18px;
     
+}
+.radial-border{
+  border-radius: 18px;
+
 }
 .input-group-text{
     color: #DA6200;
     border: 2px solid #629509 !important;
+}
+.modal-h{
+  border-bottom: 3px solid #629509
+}
+.btn-cross{
+  color: white;
+  border-radius: 75%;
+  border: 2px solid #DA6200;
+  background-color: #DA6200;
+}
+.fcltr{
+  border: 3px solid #629509;
+  border-radius: 30px;
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -614,6 +632,16 @@ input[type=number] {
     padding: 20px 20px 30px;
     border-radius: 10px;
   }
+  .card-main1{
+    background-color: none;
+    padding: 20px 20px 30px;
+    border: 0px !important; 
+  }
+  .img-card-main{
+    border: 3px solid #629509;
+    border-radius: 30px;
+  }
+  
   .product-meta{
     margin-bottom: -15px;
   }
@@ -703,6 +731,10 @@ input[type=number] {
     transition: all 200ms linear;
     transform: scale(0.8);
 }
+.slide1 {
+  
+    transform: scale(1.0); 
+}
 
 
 .swiper-slide.swiper-slide-active {
@@ -717,6 +749,7 @@ input[type=number] {
     color: #629509!important;
     font-weight: bolder;
 }
+
 
 
 
@@ -745,6 +778,7 @@ input[type=number] {
     border-radius: 12px;
     color: white;
 }
+
 .btn-view1{
     background-color: white;
     border-radius: 12px;
@@ -756,7 +790,24 @@ input[type=number] {
     border: 3px solid black;
     color: black;
 }
-
+.btn-view4{
+    background-color: #629509;
+    border-radius: 12px;
+    color: white;
+}
+.btn-view5{
+    background-color: #F8F8F8;
+    border: 3px solid #629509;
+    border-radius: 25px;
+    color: black;
+}
+.course-btn{
+    border-radius: 25px;
+}
+.border-png{
+    border: 3px solid #629509;
+    border-radius: 30px;
+}
 .btn-outline-primary{
     text-decoration: none;
     color: black;
@@ -1147,11 +1198,32 @@ border-radius: 0px;
     border: 3px solid #629509;
     border-radius: 30px;
     background-color:  rgba(98, 149, 9, 0.2);
+    
 
+}
+.wallet-anchor:hover{
+    cursor: pointer;
+    text-decoration: none;
 }
 .wal1{
     border-radius: 15px;
     background-color: #F8F8F8;
+    
+}
+.wal2{
+    width: 600px;
+}
+.wal3{
+    width: 600px;
+    border-radius: 25px;
+}
+.back-arrow{
+    border: 2px solid #629509;
+    border-radius: 50%;
+    background-color: #629509;
+}
+.back-arrow:hover{
+    cursor: pointer;
 }
 .off-o{
     border: 2px solid #629509;
@@ -1202,6 +1274,10 @@ width: 160px;}
 .card-chat{
     border-right:  3px solid #629509
 }
+.card-chat2{
+  border-left: 3px solid #629509;
+  padding-left: 10px;
+}
 .form-control1{
     border: none;
 }
@@ -1227,4 +1303,36 @@ width: 160px;}
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #DA6200; 
+  }
+  .search-icon{
+    margin-right: -35px;
+    position: relative;
+  }
+  @media (min-width: 992px) {
+    .border-righ{
+        border-right: 3px dashed #629509;
+      }
+}
+ .cart-box{
+    border: 3px solid #629509;
+    border-radius: 25px;
+    
+ }
+ .cart-image{
+    border: 3px solid #629509;
+    border-radius: 25px;
+ }
+ .border-btm{
+    border: none;
+    background-color: #F8F8F8;
+    border-bottom : 2px solid #629509;
+    width: 100%;
+ }
+ .border-btm::placeholder {
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+}
+.field-icon {
+   margin-left: -20px;
   }
